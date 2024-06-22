@@ -1,6 +1,9 @@
 Xview4Kのビルド方法
 
 ソース類をC:\Xview4Kフォルダに展開。
+追加のライブラリffmpegとlibblurayをソリューションのフォルダに置く。
+ffmpeg.zip,https://www.axfc.net/u/4079413
+libbluray.zip,https://www.axfc.net/u/4079410
 
 Xview4KはVS2019 x64でビルドする。
 旧ライブラリのビルド時はSDK8.1が必要。https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/
