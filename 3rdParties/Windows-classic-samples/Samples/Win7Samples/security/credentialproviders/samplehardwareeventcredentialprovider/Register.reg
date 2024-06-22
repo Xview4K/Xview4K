@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\{75A22DF0-B81D-46ed-B119-CD30507BD615}]
+@="SampleHardwareEventCredentialProvider"
+
+[HKEY_CLASSES_ROOT\CLSID\{75A22DF0-B81D-46ed-B119-CD30507BD615}]
+@="SampleHardwareEventCredentialProvider"
+
+[HKEY_CLASSES_ROOT\CLSID\{75A22DF0-B81D-46ed-B119-CD30507BD615}\InprocServer32]
+@="SampleHardwareEventCredentialProvider.dll"
+"ThreadingModel"="Apartment"
+

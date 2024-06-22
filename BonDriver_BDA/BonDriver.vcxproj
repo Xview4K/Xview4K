@@ -1,0 +1,607 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug-XP|Win32">
+      <Configuration>Debug-XP</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug-XP|x64">
+      <Configuration>Debug-XP</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-XP_Static|Win32">
+      <Configuration>Release-XP_Static</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-XP_Static|x64">
+      <Configuration>Release-XP_Static</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-XP|Win32">
+      <Configuration>Release-XP</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-XP|x64">
+      <Configuration>Release-XP</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Static|Win32">
+      <Configuration>Release_Static</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_Static|x64">
+      <Configuration>Release_Static</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D9482408-DA3F-416C-8B6D-A18C82A4A1E6}</ProjectGuid>
+    <RootNamespace>BonDriver</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>Xview4K</ProjectName>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-XP|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <XPDeprecationWarning>false</XPDeprecationWarning>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Static|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-XP_Static|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <XPDeprecationWarning>false</XPDeprecationWarning>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-XP|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <XPDeprecationWarning>false</XPDeprecationWarning>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Static|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-XP_Static|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <XPDeprecationWarning>false</XPDeprecationWarning>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-XP|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <XPDeprecationWarning>false</XPDeprecationWarning>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-XP|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <XPDeprecationWarning>false</XPDeprecationWarning>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-XP|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Static|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-XP_Static|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-XP|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_Static|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-XP_Static|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-XP|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-XP|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.60315.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-XP|Win32'">
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-XP|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Static|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-XP_Static|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-XP|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_Static|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-XP_Static|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;MUPARSER_STATIC;_WINDOWS;_USRDLL;BONDRIVER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <WarningLevel>Level4</WarningLevel>
+      <AdditionalIncludeDirectories>..\\ffmpeg;..\\projects\LAVSplitter;..\\projects\freetype-2.8\include;..\\projects\Demuxers;..\\projects\DSUtilLite;..\\libbluray\src;..\\common\includes;..\common;..\\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <StringPooling>true</StringPooling>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <LinkTimeCodeGeneration />
+      <AdditionalLibraryDirectories>..\\projects\freetype-2.8\objs\vc2010\Win32;..\\ffmpeg\libavutil;..\\ffmpeg\libavcodec;..\\ffmpeg\libavformat;..\\ffmpeg\libavfilter;..\\ffmpeg\libavresample;..\\liblav;..\\bin_Win32d\lib;$(SolutionDir)Lib\$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
+      <ImageHasSafeExceptionHandlers />
+      <AdditionalDependencies>avcodec-lav.lib;avfilter-lav.lib;avformat-lav.lib;avresample-lav.lib;avutil-lav.lib;swscale-lav.lib;freetype28d.lib;avutil.lib;avcodec.lib;avformat.lib;avfilter.lib;avresample.lib;demuxersd.lib;dsutild.lib;strmbasd.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-XP|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;MUPARSER_STATIC;_WINDOWS;_USRDLL;BONDRIVER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <WarningLevel>Level4</WarningLevel>
+      <AdditionalIncludeDirectories>..\common;..\\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <StringPooling>true</StringPooling>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <LinkTimeCodeGeneration>
+      </LinkTimeCodeGeneration>
+      <AdditionalLibraryDirectories>$(SolutionDir)Lib\$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
+      <ImageHasSafeExceptionHandlers>
+      </ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;MUPARSER_STATIC;_WINDOWS;_USRDLL;BONDRIVER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level4</WarningLevel>
+      <AdditionalIncludeDirectories>C:\Xview4K\cryptopp890;C:\Program Files\OpenSSL-Win64\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;$(SolutionDir)ffmpeg;$(SolutionDir)projects\freetype-2.8\include;$(SolutionDir)projects\DSUtilLite;$(SolutionDir)projects\Demuxers;$(SolutionDir)projects\LAVSplitter;$(SolutionDir)common\baseclasses;..\common;$(SolutionDir)common\includes;$(SolutionDir)common\DSUtilLite;$(SolutionDir)libbluray\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <StringPooling>true</StringPooling>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <AdditionalOptions>/F 5000000 %(AdditionalOptions)</AdditionalOptions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>DebugFastLink</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <LinkTimeCodeGeneration>
+      </LinkTimeCodeGeneration>
+      <AdditionalLibraryDirectories>C:\Xview4K\cryptopp890\x64\Output\Debug;C:\Program Files\OpenSSL-Win64\lib\VC\x64\MT;..\\projects\freetype-2.8\objs\vc2010\x64;..\\ffmpeg\libavutil;..\\ffmpeg\libavcodec;..\\ffmpeg\libavformat;..\\ffmpeg\libavfilter;..\\ffmpeg\libavresample;..\\liblav;..\\bin_x64d\lib;$(SolutionDir)Lib\$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
+      <AdditionalDependencies>winscard.lib;libssl.lib;libcrypto.lib;cryptlib.lib;avcodec-lav.lib;avfilter-lav.lib;avformat-lav.lib;avresample-lav.lib;avutil-lav.lib;swscale-lav.lib;freetype28d.lib;avutil.lib;avcodec.lib;avformat.lib;avfilter.lib;avresample.lib;demuxersd.lib;dsutild.lib;strmbasd.lib;shcore.lib;advapi32.lib;ole32.lib;winmm.lib;user32.lib;oleaut32.lib;Comctl32.lib;shell32.lib;version.lib;Shlwapi.lib;strmbasd.lib;dsutild.lib;demuxersd.lib;avformat-lav.lib;avutil-lav.lib;avcodec-lav.lib;freetype28d.lib;xmllite.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ModuleDefinitionFile>
+      </ModuleDefinitionFile>
+      <StackReserveSize>5000000</StackReserveSize>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-XP|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;MUPARSER_STATIC;_WINDOWS;_USRDLL;BONDRIVER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level4</WarningLevel>
+      <AdditionalIncludeDirectories>..\common;..\\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <StringPooling>true</StringPooling>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <LinkTimeCodeGeneration>
+      </LinkTimeCodeGeneration>
+      <AdditionalLibraryDirectories>$(SolutionDir)Lib\$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <PreprocessorDefinitions>WIN32;MUPARSER_STATIC;NDEBUG;_WINDOWS;_USRDLL;BONDRIVER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <AdditionalIncludeDirectories>..\common;..\\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WarningLevel>Level4</WarningLevel>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <AdditionalLibraryDirectories>$(SolutionDir)Lib\$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-XP|Win32'">
+    <ClCompile>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <PreprocessorDefinitions>WIN32;MUPARSER_STATIC;NDEBUG;_WINDOWS;_USRDLL;BONDRIVER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <AdditionalIncludeDirectories>..\common;..\\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WarningLevel>Level4</WarningLevel>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <AdditionalLibraryDirectories>$(SolutionDir)Lib\$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Static|Win32'">
+    <ClCompile>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <PreprocessorDefinitions>WIN32;MUPARSER_STATIC;NDEBUG;_WINDOWS;_USRDLL;BONDRIVER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <AdditionalIncludeDirectories>..\common;..\\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WarningLevel>Level4</WarningLevel>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <AdditionalLibraryDirectories>$(SolutionDir)Lib\$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-XP_Static|Win32'">
+    <ClCompile>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <PreprocessorDefinitions>WIN32;MUPARSER_STATIC;NDEBUG;_WINDOWS;_USRDLL;BONDRIVER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <AdditionalIncludeDirectories>..\common;..\\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <WarningLevel>Level4</WarningLevel>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <AdditionalLibraryDirectories>$(SolutionDir)Lib\$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <PreprocessorDefinitions>WIN32;MUPARSER_STATIC;NDEBUG;_WINDOWS;_USRDLL;BONDRIVER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level4</WarningLevel>
+      <AdditionalIncludeDirectories>C:\Xview4K\cryptopp890;C:\Program Files\OpenSSL-Win64\include;C:\Program Files (x86)\Windows Kits\8.1\Include\um;$(SolutionDir)ffmpeg;$(SolutionDir)projects\freetype-2.8\include;$(SolutionDir)projects\DSUtilLite;$(SolutionDir)projects\Demuxers;$(SolutionDir)projects\LAVSplitter;$(SolutionDir)common\baseclasses;..\common;$(SolutionDir)common\includes;$(SolutionDir)common\DSUtilLite;$(SolutionDir)libbluray\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <AdditionalLibraryDirectories>C:\Xview4K\cryptopp890\x64\Output\Debug;C:\Program Files\OpenSSL-Win64\lib\VC\x64\MT;..\\projects\freetype-2.8\objs\vc2010\x64;..\\ffmpeg\libavutil;..\\ffmpeg\libavcodec;..\\ffmpeg\libavformat;..\\ffmpeg\libavfilter;..\\ffmpeg\libavresample;..\\liblav;..\\bin_x64d\lib;$(SolutionDir)Lib\$(Platform)\Debug</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <AdditionalDependencies>winscard.lib;libssl.lib;libcrypto.lib;cryptlib.lib;avcodec-lav.lib;avfilter-lav.lib;avformat-lav.lib;avresample-lav.lib;avutil-lav.lib;swscale-lav.lib;freetype28d.lib;avutil.lib;avcodec.lib;avformat.lib;avfilter.lib;avresample.lib;demuxersd.lib;dsutild.lib;strmbasd.lib;shcore.lib;advapi32.lib;ole32.lib;winmm.lib;user32.lib;oleaut32.lib;Comctl32.lib;shell32.lib;version.lib;Shlwapi.lib;strmbasd.lib;dsutild.lib;demuxersd.lib;avformat-lav.lib;avutil-lav.lib;avcodec-lav.lib;freetype28d.lib;xmllite.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-XP|x64'">
+    <ClCompile>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <PreprocessorDefinitions>WIN32;MUPARSER_STATIC;NDEBUG;_WINDOWS;_USRDLL;BONDRIVER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level4</WarningLevel>
+      <AdditionalIncludeDirectories>..\common;..\\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <AdditionalLibraryDirectories>$(SolutionDir)Lib\$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_Static|x64'">
+    <ClCompile>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <PreprocessorDefinitions>WIN32;MUPARSER_STATIC;NDEBUG;_WINDOWS;_USRDLL;BONDRIVER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level4</WarningLevel>
+      <AdditionalIncludeDirectories>..\common;..\\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <AdditionalLibraryDirectories>$(SolutionDir)Lib\$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-XP_Static|x64'">
+    <ClCompile>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <PreprocessorDefinitions>WIN32;MUPARSER_STATIC;NDEBUG;_WINDOWS;_USRDLL;BONDRIVER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <WarningLevel>Level4</WarningLevel>
+      <AdditionalIncludeDirectories>..\common;..\\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <AdditionalLibraryDirectories>$(SolutionDir)Lib\$(Platform)\$(Configuration)\</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\common\CIniFileAccess.cpp" />
+    <ClCompile Include="..\common\common.cpp" />
+    <ClCompile Include="..\common\crc32.cpp" />
+    <ClCompile Include="..\common\DSFilterEnum.cpp" />
+    <ClCompile Include="..\projects\LAVSplitter\LAV_dllmain.cpp" />
+    <ClCompile Include="..\projects\LAVSplitter\LAV_InputPin.cpp" />
+    <ClCompile Include="..\projects\LAVSplitter\LAVSplitter.cpp" />
+    <ClCompile Include="..\projects\LAVSplitter\LAVSplitterTrayIcon.cpp" />
+    <ClCompile Include="..\projects\LAVSplitter\LAV_OutputPin.cpp" />
+    <ClCompile Include="..\projects\LAVSplitter\LAV_PacketAllocator.cpp" />
+    <ClCompile Include="..\projects\LAVSplitter\LAV_PacketQueue.cpp" />
+    <ClCompile Include="..\projects\LAVSplitter\LAV_SettingsProp.cpp" />
+    <ClCompile Include="..\projects\LAVSplitter\stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release-XP_Static|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release-XP_Static|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release-XP|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Static|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release-XP|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release_Static|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug-XP|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug-XP|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\projects\LAVSplitter\LAV_StreamParser.cpp" />
+    <ClCompile Include="AsyncOutPin.cpp" />
+    <ClCompile Include="a_cas_card.c" />
+    <ClCompile Include="BonDriver.cpp" />
+    <ClCompile Include="BonTuner.cpp" />
+    <ClCompile Include="frame_buffer.cpp" />
+    <ClCompile Include="MyAyncSrcFilter.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="tlv_parse.cpp" />
+    <ClCompile Include="TSMF.cpp" />
+    <ClCompile Include="tswriter.cpp" />
+    <ClCompile Include="TS_BUFF.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\common\CIniFileAccess.h" />
+    <ClInclude Include="..\common\common.h" />
+    <ClInclude Include="..\common\crc32.h" />
+    <ClInclude Include="..\common\DSFilterEnum.h" />
+    <ClInclude Include="..\common\IBdaSpecials.h" />
+    <ClInclude Include="..\common\IBdaSpecials2.h" />
+    <ClInclude Include="..\common\includes\common_defines.h" />
+    <ClInclude Include="..\common\includes\IBufferInfo.h" />
+    <ClInclude Include="..\common\includes\IDSMResourceBag.h" />
+    <ClInclude Include="..\common\includes\IGraphRebuildDelegate.h" />
+    <ClInclude Include="..\common\includes\IKeyFrameInfo.h" />
+    <ClInclude Include="..\common\includes\ILAVDynamicAllocator.h" />
+    <ClInclude Include="..\common\includes\ILAVPinInfo.h" />
+    <ClInclude Include="..\common\includes\ISpecifyPropertyPages2.h" />
+    <ClInclude Include="..\common\includes\IStreamSourceControl.h" />
+    <ClInclude Include="..\common\includes\ITrackInfo.h" />
+    <ClInclude Include="..\common\includes\LAVSplitterSettings.h" />
+    <ClInclude Include="..\common\includes\LAVSplitterSettingsInternal.h" />
+    <ClInclude Include="..\common\includes\moreuuids.h" />
+    <ClInclude Include="..\common\includes\version.h" />
+    <ClInclude Include="..\common\LockChannel.h" />
+    <ClInclude Include="..\common\WaitWithMsg.h" />
+    <ClInclude Include="..\projects\LAVSplitter\LAV_InputPin.h" />
+    <ClInclude Include="..\projects\LAVSplitter\LAVSplitter.h" />
+    <ClInclude Include="..\projects\LAVSplitter\LAVSplitterTrayIcon.h" />
+    <ClInclude Include="..\projects\LAVSplitter\LAV_OutputPin.h" />
+    <ClInclude Include="..\projects\LAVSplitter\LAV_PacketAllocator.h" />
+    <ClInclude Include="..\projects\LAVSplitter\LAV_PacketQueue.h" />
+    <ClInclude Include="..\projects\LAVSplitter\resource.h" />
+    <ClInclude Include="..\projects\LAVSplitter\LAV_SettingsProp.h" />
+    <ClInclude Include="..\projects\LAVSplitter\stdafx.h" />
+    <ClInclude Include="..\projects\LAVSplitter\LAV_StreamParser.h" />
+    <ClInclude Include="a_cas_card.h" />
+    <ClInclude Include="a_cas_card_error_code.h" />
+    <ClInclude Include="BonTuner.h" />
+    <ClInclude Include="frame_buffer.h" />
+    <ClInclude Include="IBonDriver.h" />
+    <ClInclude Include="IBonDriver2.h" />
+    <ClInclude Include="mmtp.h" />
+    <ClInclude Include="mvrInterfaces.h" />
+    <ClInclude Include="MyAsyncSrcFilter.h" />
+    <ClInclude Include="portable.h" />
+    <ClInclude Include="resource2.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="tlv_parse.h" />
+    <ClInclude Include="TSMF.h" />
+    <ClInclude Include="tswriter.h" />
+    <ClInclude Include="TS_BUFF.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\doc\BonDriver_BDA-BSCS-sample.ini" />
+    <None Include="..\doc\BonDriver_BDA-UHF-sample.ini" />
+    <None Include="..\doc\BonDriver_BDA.sample.ini" />
+    <None Include="..\doc\BonDriver_BDA_SPHD-sample.ini" />
+    <None Include="font2.bin" />
+    <None Include="HiraginoMaruProNW4.ttc" />
+    <None Include="raw_imag.bin" />
+    <None Include="seekbar2_2560x300.img" />
+    <None Include="seekbar_2560x300.img" />
+    <None Include="seekpoint_65x65.img" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\doc\History-BonDriver_BDA.txt" />
+    <Text Include="..\doc\Readme-BonDriver_BDA.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\projects\LAVSplitter\LAVSplitter.rc" />
+    <ResourceCompile Include="BonDriver_BDA.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="MiSeTe4K.bmp" />
+    <None Include="..\resources\white.ico" />
+    <Image Include="icon1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="rounded-x-mplus-2p-medium.ttf" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

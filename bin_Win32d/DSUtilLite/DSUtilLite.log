@@ -1,0 +1,25 @@
+﻿  Git not found
+  stdafx.cpp
+  BaseDSPropPage.cpp
+  CueSheet.cpp
+  DSMResourceBag.cpp
+  MediaSampleSideData.cpp
+  PopupMenu.cpp
+  BaseTrayIcon.cpp
+  ByteParser.cpp
+  CSSauth.cpp
+  CSSscramble.cpp
+  DeCSSInputPin.cpp
+C:\Users\n6ne\Downloads\1601127204\MiSeTe4K_source_20200926\ffmpeg\libavutil\rational.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  DShowUtil.cpp
+C:\Program Files (x86)\Windows Kits\8.1\Include\shared\ksmedia.h(4586,2): warning C4091: 'typedef ': 変数が何も宣言されていないときは、'<unnamed-enum-KSEVENT_DYNAMIC_FORMAT_CHANGE>' の左辺を無視します。
+C:\Users\n6ne\Downloads\1601127204\MiSeTe4K_source_20200926\ffmpeg\libavutil\rational.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  filterreg.cpp
+  FontInstaller.cpp
+  H264Nalu.cpp
+  locale.cpp
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\Shlobj.h(1054,2): warning C4091: 'typedef ': 変数が何も宣言されていないときは、'tagGPFIDL_FLAGS' の左辺を無視します。
+  registry.cpp
+  コードを生成中...
+C:\Users\n6ne\Downloads\1601127204\MiSeTe4K_source_20200926\projects\DSUtilLite\locale.cpp(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  DSUtilLite.vcxproj -> C:\Users\n6ne\Downloads\1601127204\MiSeTe4K_source_20200926\bin_Win32d\lib\dsutild.lib

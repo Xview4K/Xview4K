@@ -1,0 +1,102 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (United States) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_FULLSCREENMAGNIFICATIONCONTROL DIALOGEX 0, 0, 174, 94
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Fullscreen Magnifier Sample"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Set the current magnification factor:",IDC_STATIC,7,7,118,8
+    CONTROL         "&100%",IDC_RADIO_100,"Button",BS_AUTORADIOBUTTON | WS_TABSTOP,7,18,35,10
+    CONTROL         "&200%",IDC_RADIO_200,"Button",BS_AUTORADIOBUTTON,47,18,35,10
+    CONTROL         "&300%",IDC_RADIO_300,"Button",BS_AUTORADIOBUTTON,87,18,35,10
+    CONTROL         "&400%",IDC_RADIO_400,"Button",BS_AUTORADIOBUTTON,127,18,35,10
+    CONTROL         "&Apply grayscale",IDC_CHECK_SETGRAYSCALE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,41,100,10
+    CONTROL         "&Set input transform",IDC_CHECK_SETINPUTTRANSFORM,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,7,57,87,10
+    PUSHBUTTON      "&Get the current settings",IDC_BUTTON_GETSETTINGS,7,73,93,14
+    DEFPUSHBUTTON   "&Close",IDC_CLOSE,117,73,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG_FULLSCREENMAGNIFICATIONCONTROL, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 167
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 87
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // English (United States) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

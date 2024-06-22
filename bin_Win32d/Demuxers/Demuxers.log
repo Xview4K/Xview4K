@@ -1,0 +1,3 @@
+﻿  stdafx.cpp
+C:\Users\n6ne\Downloads\1601127204\MiSeTe4K_source_20200926\ffmpeg\libavutil\rational.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\Users\n6ne\Downloads\1601127204\MiSeTe4K_source_20200926\projects\Demuxers\stdafx.h(51,10): fatal error C1083: include ファイルを開けません。'DShowUtil.h':No such file or directory

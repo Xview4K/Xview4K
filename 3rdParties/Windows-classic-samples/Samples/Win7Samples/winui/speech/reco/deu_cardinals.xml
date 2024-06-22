@@ -1,0 +1,123 @@
+﻿<GRAMMAR LANGID="407">
+	<RULE NAME="Cardinals" TOPLEVEL="ACTIVE">
+		<P MIN="1" MAX="400">
+			<RULEREF NAME="Integer 1-999999"/>
+		</P>
+
+	</RULE>
+
+	<RULE NAME="Integer 1-999999" TOPLEVEL="INACTIVE">
+		<L>
+			<P>
+				<RULEREF NAME="Integer 1000-999000"/>
+				<O>
+					<L>
+						<RULEREF NAME="Integer 100-999"/>
+						<RULEREF NAME="Integer 1-99"/>					
+					</L>
+				</O>
+			</P>
+			<RULEREF NAME="Integer 100-999"/>
+			<RULEREF NAME="Integer 1-99"/>
+		</L>
+	</RULE>
+	
+	<RULE NAME="Integer 1000-999000" TOPLEVEL="INACTIVE">
+		<L>
+			<RULEREF NAME="Integer 100-999"/>
+			<RULEREF NAME="Integer 1-99"/>
+		</L>
+		<P> tausend </P>
+	</RULE>
+	
+	<RULE NAME="Integer 100-999" TOPLEVEL="INACTIVE">
+		<RULEREF NAME="Integer 1-9"/>
+		<P> hundert </P>
+		<O>
+			<RULEREF NAME="Integer 1-99"/>
+		</O>
+	</RULE>
+
+	<RULE NAME="Integer 1-9" TOPLEVEL="INACTIVE">
+		<L>
+			<P> ein </P>
+			<P> zwei </P>
+			<P> zwo </P>
+			<P> drei </P>
+			<P> vier </P>
+			<P> fünf </P>
+			<P> sechs </P>
+			<P> sieben </P>
+			<P> acht </P>
+			<P> neun </P>
+		</L>
+	</RULE>
+
+	<RULE NAME="Integer 1-99" TOPLEVEL="INACTIVE">
+		<L>
+			<RULEREF NAME="Integer 0-19"/>
+			<RULEREF NAME="Integer tens"/>
+		</L>
+	</RULE>	
+
+	<RULE NAME="Integer 0-19" TOPLEVEL="INACTIVE">
+
+		<L>
+			<P> nul </P>
+			<P> eins </P>
+			<P> ein </P>	
+			<P> zwei </P>
+			<P> zwo </P>
+			<P> drei </P>
+			<P> vier </P>
+			<P> fünf </P>
+			<P> sechs </P>
+			<P> sieben </P>
+			<P> acht </P>
+			<P> neun </P>
+			<P> zehn </P>
+			<P> elf </P>
+			<P> zwölf </P>
+			<P> dreizehn </P>
+			<P> vierzehn </P>
+			<P> fünfzehn </P>
+			<P> sechzehn </P>
+			<P> siebzehn </P>
+			<P> achtzehn </P>
+			<P> neunzehn </P>
+		</L>
+	</Rule>
+
+	<RULE NAME="Integer tens" TOPLEVEL="INACTIVE">
+
+		<O>
+			<L>
+				<P> ein </P>	
+				<P> zwei </P>
+				<P> zwo </P>
+				<P> drei </P>
+				<P> vier </P>
+				<P> fünf </P>
+				<P> sechs </P>
+				<P> sieben </P>
+				<P> acht </P>
+				<P> neun </P>
+			</L>
+		</O>
+
+		<O>
+			<P> und </P>
+		</O>
+
+		<L>
+			<P> zwanzig </P>
+			<P> dreißig </P>
+			<P> vierzig </P>
+			<P> fünfzig </P>
+			<P> sechzig </P>
+			<P> siebzig </P>
+			<P> achtzig </P>
+			<P> neunzig </P>
+		</L>
+	</RULE>
+</GRAMMAR>

@@ -1,0 +1,10 @@
+E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\Lib\x64\Debug\muparser.pdb
+E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\muparser\x64\Debug\muparser.pdb
+E:\MiSeTe4Kフォーク元20200318\MiSeTe4K\Lib\x64\Debug\muparser.pdb
+E:\MiSeTe4Kフォーク元20200318\MiSeTe4K\projects\muparser\x64\Debug\muparser.pdb
+C:\Users\lucky\source\repos\MiSeTe4K_20200417\Lib\x64\Debug\muparser.pdb
+C:\Users\lucky\source\repos\MiSeTe4K_20200417\projects\muparser\x64\Debug\muparser.pdb
+C:\Users\lucky\Desktop\新しいフォルダー\MiSeTe4K_dl\Lib\x64\Debug\muparser.pdb
+C:\Users\lucky\Desktop\新しいフォルダー\MiSeTe4K_dl\projects\muparser\x64\Debug\muparser.pdb
+C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\Lib\x64\Debug\muparser.pdb
+C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\muparser\x64\Debug\muparser.pdb

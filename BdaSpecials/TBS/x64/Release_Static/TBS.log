@@ -1,0 +1,10 @@
+﻿  CIniFileAccess.cpp
+  common.cpp
+  DSFilterEnum.cpp
+  TBSSpecials.cpp
+     ライブラリ E:\MiSeTe4Kフォーク元20200224\BonDriver_BDA\x64\Release_Static\TBS.lib とオブジェクト E:\MiSeTe4Kフォーク元20200224\BonDriver_BDA\x64\Release_Static\TBS.exp を作成中
+  コード生成しています。
+  Previous IPDB not found, fall back to full compilation.
+  All 484 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  TBS.vcxproj -> E:\MiSeTe4Kフォーク元20200224\BonDriver_BDA\x64\Release_Static\TBS.dll

@@ -1,0 +1,43 @@
+<!--
+ *************************************************************************
+ *
+ * File: flyout.html
+ *
+ * Description: 
+ * Root for the flyout of the "Flyout" Desktop Gadget sample. 
+ * Demonstrates gadget flyout functionality.
+ * 
+ * This file is part of the Microsoft Windows SDK Code Samples.
+ * 
+ * Copyright (C) Microsoft Corporation.  All rights reserved.
+ * 
+ * This source code is intended only as a supplement to Microsoft
+ * Development Tools and/or on-line documentation.  See these other
+ * materials for detailed information regarding Microsoft code samples.
+ * 
+ * THIS CODE AND INFORMATION ARE PROVIDED AS IS WITHOUT WARRANTY OF ANY
+ * KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A
+ * PARTICULAR PURPOSE.
+ * 
+ ************************************************************************
+-->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=Unicode" />
+    <script language="javascript" src="js/flyout.js" type="text/javascript"></script>
+    <link href="css/flyout.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <g:background id="imgBackground" src="images/background.png">
+    <div id="flyoutContent">
+    <a href="javascript:void(0);" onclick="hideFlyout();">Hide Flyout</a>
+    <p>
+    <label>Enter text to display in parent gadget: 
+    <input type="text" id="txtFeedback" onkeyup="showInGadget(this);" title="Enter text to display in parent gadget"/>
+    </label>
+    </p>
+    </div>
+    </g:background>
+</body>
+</html>

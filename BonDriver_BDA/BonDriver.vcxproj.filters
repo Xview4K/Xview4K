@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="doc">
+      <UniqueIdentifier>{7696d2f5-34b6-428b-82a4-e09fbaafbf7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\common">
+      <UniqueIdentifier>{e12759ff-a01d-4591-983a-dec66bb1934e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BonDriver.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="BonTuner.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="tswriter.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\DSFilterEnum.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\CIniFileAccess.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\common.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\common\crc32.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TSMF.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TS_BUFF.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="tlv_parse.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="MyAyncSrcFilter.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="AsyncOutPin.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="frame_buffer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projects\LAVSplitter\LAVSplitter.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projects\LAVSplitter\LAVSplitterTrayIcon.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projects\LAVSplitter\LAV_PacketAllocator.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projects\LAVSplitter\LAV_PacketQueue.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projects\LAVSplitter\LAV_SettingsProp.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projects\LAVSplitter\LAV_OutputPin.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projects\LAVSplitter\LAV_InputPin.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projects\LAVSplitter\LAV_StreamParser.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projects\LAVSplitter\stdafx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\projects\LAVSplitter\LAV_dllmain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="a_cas_card.c">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BonTuner.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="IBonDriver.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="IBonDriver2.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="tswriter.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\common.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\IBdaSpecials.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\LockChannel.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\IBdaSpecials2.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\DSFilterEnum.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\WaitWithMsg.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\CIniFileAccess.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\crc32.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TSMF.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="TS_BUFF.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="tlv_parse.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="mmtp.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="MyAsyncSrcFilter.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="frame_buffer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="resource2.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\includes\common_defines.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\includes\IBufferInfo.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\includes\IDSMResourceBag.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\includes\IGraphRebuildDelegate.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\includes\IKeyFrameInfo.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\includes\ILAVDynamicAllocator.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\includes\ILAVPinInfo.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\includes\ISpecifyPropertyPages2.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\includes\IStreamSourceControl.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\includes\ITrackInfo.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\includes\LAVSplitterSettings.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\includes\LAVSplitterSettingsInternal.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\includes\moreuuids.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\includes\version.h">
+      <Filter>ヘッダー ファイル\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projects\LAVSplitter\LAVSplitter.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projects\LAVSplitter\LAVSplitterTrayIcon.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projects\LAVSplitter\resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="mvrInterfaces.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projects\LAVSplitter\LAV_PacketAllocator.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projects\LAVSplitter\LAV_PacketQueue.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projects\LAVSplitter\LAV_SettingsProp.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projects\LAVSplitter\LAV_OutputPin.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projects\LAVSplitter\LAV_InputPin.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projects\LAVSplitter\LAV_StreamParser.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\projects\LAVSplitter\stdafx.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="a_cas_card.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="a_cas_card_error_code.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="portable.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\doc\BonDriver_BDA.sample.ini">
+      <Filter>doc</Filter>
+    </None>
+    <None Include="..\doc\BonDriver_BDA_SPHD-sample.ini">
+      <Filter>doc</Filter>
+    </None>
+    <None Include="..\doc\BonDriver_BDA-BSCS-sample.ini">
+      <Filter>doc</Filter>
+    </None>
+    <None Include="..\doc\BonDriver_BDA-UHF-sample.ini">
+      <Filter>doc</Filter>
+    </None>
+    <None Include="..\resources\white.ico">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="HiraginoMaruProNW4.ttc">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="raw_imag.bin">
+      <Filter>リソース ファイル</Filter>
+    </None>
+    <None Include="seekbar_2560x300.img" />
+    <None Include="seekpoint_65x65.img" />
+    <None Include="seekbar2_2560x300.img" />
+    <None Include="font2.bin">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\doc\History-BonDriver_BDA.txt">
+      <Filter>doc</Filter>
+    </Text>
+    <Text Include="..\doc\Readme-BonDriver_BDA.txt">
+      <Filter>doc</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BonDriver_BDA.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="..\projects\LAVSplitter\LAVSplitter.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="MiSeTe4K.bmp">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="rounded-x-mplus-2p-medium.ttf" />
+  </ItemGroup>
+</Project>

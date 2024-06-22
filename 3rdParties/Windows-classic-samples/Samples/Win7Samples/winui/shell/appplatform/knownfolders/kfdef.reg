@@ -1,0 +1,50 @@
+Windows Registry Editor Version 5.00
+
+; Replace the GUID under FolderDescriptions with a unique GUID of your own
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\explorer\FolderDescriptions\{9577B273-21CD-4bb5-88FB-3781C577543F}]
+
+; Name should be a unique value consisting of Company Name.Product Name.Folder Name
+"Name"="Microsoft.SDKSample.Recipes"
+
+"Description"="The definitive place for each user to store recipes!"
+
+; ParentFolder is the GUID of the folder to which RelativePath is relative.  You can obtain this value by using the kfexplorer tool
+; to enumerate all knownfolders on the system.
+; {5E6C858F-0E22-4760-9AFE-EA3317B67173} is the GUID for FOLDERID_Profile (equivalent to %USERPROFILE%)
+"ParentFolder"="{5E6C858F-0E22-4760-9AFE-EA3317B67173}"
+
+; RelativePath is the physical folder name which will be created under the current path of ParentFolder
+"RelativePath"="Recipes"
+
+; InfoTip is recommended to be a resource path, so it can be localized, in the format:
+;   @%windir%\system32\shell32.dll,-131
+;For the purposes of this sample, it is a hard coded string.
+; Please see the kfexplorer sample to see this work with resource paths.
+"InfoTip"="The place for all of your favorite Recipes!"
+
+; Just like InfoTip, LocalizedName is recommended to be set to a resource path so it can be localized.  
+"LocalizedName"="Recipes Library"
+
+; Icon must be a resource path
+"Icon"="%windir%\system32\shell32.dll,-267"
+
+; Category can be one of four possible values:
+;  KF_CATEGORY_VIRTUAL	= 0x1
+;  KF_CATEGORY_FIXED	= 0x2
+;  KF_CATEGORY_COMMON	= 0x3
+;  KF_CATEGORY_PERUSER	= 0x4
+"Category"=dword:00000004
+
+; These are file attributes (see MSDN documentation for CreateFile() for a full list of these)
+"Attributes"=dword:00000000
+
+
+; The following flags are all:
+
+; PreCreate, if set, will cause PER_USER known folders to be created at profile creation time for all new users
+"PreCreate"=dword:00000001
+
+; Roamable, if set, will allow the folder to be synced between two computers via the PC to PC Sync feature
+"Roamable"=dword:00000001
+
+

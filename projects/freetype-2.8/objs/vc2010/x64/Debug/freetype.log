@@ -1,0 +1,159 @@
+﻿2020/09/26 22:01:55 にビルドを開始しました。
+ログの詳細度は次のように設定されています: Normal。     1>ノード 3 上のプロジェクト "C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\builds\windows\vc2010\freetype.vcxproj" (Build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため ".\..\..\..\objs\vc2010\x64\Debug\freetype.tlog\unsuccessfulbuild" を作成しています。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64\CL.exe /c /I..\..\..\include /Zi /nologo /W4 /WX- /diagnostics:column /MP /Od /Ob0 /D _DEBUG /D WIN32 /D _LIB /D _CRT_SECURE_NO_WARNINGS /D FT_DEBUG_LEVEL_ERROR /D FT_DEBUG_LEVEL_TRACE /D FT2_BUILD_LIBRARY /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Za /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\..\..\..\objs\vc2010\x64\Debug\\" /Fd".\..\..\..\objs\vc2010\x64\freetype28d.pdb" /Gd /TC /wd4001 /FC /errorReport:prompt ..\..\..\src\autofit\autofit.c ..\..\..\src\bdf\bdf.c ..\..\..\src\cff\cff.c ..\..\..\src\base\ftbase.c ..\..\..\src\base\ftbitmap.c ..\..\..\src\cache\ftcache.c ..\..\..\src\base\ftfstype.c ..\..\..\src\base\ftgasp.c ..\..\..\src\base\ftglyph.c ..\..\..\src\gzip\ftgzip.c ..\..\..\src\base\ftinit.c ..\..\..\src\lzw\ftlzw.c ..\..\..\src\base\ftstroke.c ..\..\..\src\base\ftsystem.c ..\..\..\src\smooth\smooth.c ..\..\..\src\base\ftbbox.c ..\..\..\src\base\ftfntfmt.c ..\..\..\src\base\ftmm.c ..\..\..\src\base\ftpfr.c ..\..\..\src\base\ftsynth.c ..\..\..\src\base\fttype1.c ..\..\..\src\base\ftwinfnt.c ..\..\..\src\base\ftlcdfil.c ..\..\..\src\base\ftgxval.c ..\..\..\src\base\ftotval.c ..\..\..\src\base\ftpatent.c ..\..\..\src\pcf\pcf.c ..\..\..\src\pfr\pfr.c ..\..\..\src\psaux\psaux.c ..\..\..\src\pshinter\pshinter.c ..\..\..\src\psnames\psmodule.c ..\..\..\src\raster\raster.c ..\..\..\src\sfnt\sfnt.c ..\..\..\src\truetype\truetype.c ..\..\..\src\type1\type1.c ..\..\..\src\cid\type1cid.c ..\..\..\src\type42\type42.c ..\..\..\src\winfonts\winfnt.c
+         autofit.c
+         bdf.c
+         cff.c
+         ftbase.c
+         ftbitmap.c
+         ftcache.c
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\autofit\afscript.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\autofit\afblue.c(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\autofit\afblue.c(253,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\autofit\afscript.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\autofit\afscript.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\autofit\afscript.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\autofit\afscript.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\autofit\afscript.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\cff\cffload.c(1368,69): warning C4244: '=': 'FT_UInt32' から 'FT_Byte' への変換です。データが失われる可能性があります。 (ソース ファイルをコンパイルしています ..\..\..\src\cff\cff.c)
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\base\ftobjs.c(4995): warning C4702: 制御が渡らないコードです。
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\base\ftobjs.c(4996): warning C4702: 制御が渡らないコードです。
+         ftfstype.c
+         ftgasp.c
+         ftglyph.c
+         ftgzip.c
+         ftlzw.c
+         ftinit.c
+         ftstroke.c
+         ftsystem.c
+         smooth.c
+         ftbbox.c
+         ftfntfmt.c
+         ftmm.c
+         ftpfr.c
+         ftsynth.c
+         fttype1.c
+         ftwinfnt.c
+         ftlcdfil.c
+         ftgxval.c
+         ftotval.c
+         ftpatent.c
+         pcf.c
+         pfr.c
+         psaux.c
+         pshinter.c
+         psmodule.c
+         raster.c
+         sfnt.c
+         truetype.c
+         type1.c
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\psaux\t1decode.c(1356,27): warning C4267: '=': 'size_t' から 'FT_Int' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\psaux\psaux.c)
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\sfnt\sfdriver.c(838,32): warning C4267: '=': 'size_t' から 'FT_UInt' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\sfnt\sfnt.c)
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\sfnt\sfdriver.c(988,44): warning C4244: '関数': '__int64' から 'const unsigned int' への変換です。データが失われる可能性があります。 (ソース ファイルをコンパイルしています ..\..\..\src\sfnt\sfnt.c)
+         type1cid.c
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\sfnt\ttload.c(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\sfnt\sfnt.c)
+         type42.c
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\truetype\ttgload.c(1711,39): warning C4312: '型キャスト': 'unsigned long' からより大きいサイズの 'void *' へ変換します。 (ソース ファイルをコンパイルしています ..\..\..\src\truetype\truetype.c)
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\type1\t1driver.c(269,49): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\type1\t1driver.c(289,58): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\type1\t1driver.c(321,65): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\type1\t1driver.c(351,23): warning C4267: '=': 'size_t' から 'FT_UInt' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\type1\t1driver.c(558,57): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\type1\t1driver.c(564,56): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\type1\t1driver.c(570,59): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\type1\t1driver.c(576,61): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\type1\t1driver.c(582,56): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\type1\t1load.c(1528,68): warning C4244: '=': '__int64' から 'FT_Int' への変換です。データが失われる可能性があります。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\type1\t1load.c(1689,40): warning C4244: '=': '__int64' から 'FT_Int' への変換です。データが失われる可能性があります。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\truetype\ttobjs.c(810,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\truetype\truetype.c)
+         winfnt.c
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\type42\t42parse.c(821,66): warning C4244: '=': '__int64' から 'FT_Int' への変換です。データが失われる可能性があります。 (ソース ファイルをコンパイルしています ..\..\..\src\type42\type42.c)
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64\CL.exe /c /I..\..\..\include /Zi /nologo /W4 /WX- /diagnostics:column /MP /Od /Ob0 /D _DEBUG /D WIN32 /D _LIB /D _CRT_SECURE_NO_WARNINGS /D FT_DEBUG_LEVEL_ERROR /D FT_DEBUG_LEVEL_TRACE /D FT2_BUILD_LIBRARY /D _MBCS /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\..\..\..\objs\vc2010\x64\Debug\\" /Fd".\..\..\..\objs\vc2010\x64\freetype28d.pdb" /Gd /TC /wd4001 /FC /errorReport:prompt ..\ftdebug.c
+         ftdebug.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64\Lib.exe /OUT:".\..\..\..\objs\vc2010\x64\freetype28d.lib" /NOLOGO /MACHINE:X64 .\..\..\..\objs\vc2010\x64\Debug\autofit.obj
+         .\..\..\..\objs\vc2010\x64\Debug\bdf.obj
+         .\..\..\..\objs\vc2010\x64\Debug\cff.obj
+         .\..\..\..\objs\vc2010\x64\Debug\ftbase.obj
+         .\..\..\..\objs\vc2010\x64\Debug\ftbitmap.obj
+         .\..\..\..\objs\vc2010\x64\Debug\ftcache.obj
+         .\..\..\..\objs\vc2010\x64\Debug\ftdebug.obj
+         .\..\..\..\objs\vc2010\x64\Debug\ftfstype.obj
+         .\..\..\..\objs\vc2010\x64\Debug\ftgasp.obj
+         .\..\..\..\objs\vc2010\x64\Debug\ftglyph.obj
+         .\..\..\..\objs\vc2010\x64\Debug\ftgzip.obj
+         .\..\..\..\objs\vc2010\x64\Debug\ftinit.obj
+         .\..\..\..\objs\vc2010\x64\Debug\ftlzw.obj
+         .\..\..\..\objs\vc2010\x64\Debug\ftstroke.obj
+         .\..\..\..\objs\vc2010\x64\Debug\ftsystem.obj
+         .\..\..\..\objs\vc2010\x64\Debug\smooth.obj
+         .\..\..\..\objs\vc2010\x64\Debug\ftbbox.obj
+         .\..\..\..\objs\vc2010\x64\Debug\ftfntfmt.obj
+         .\..\..\..\objs\vc2010\x64\Debug\ftmm.obj
+         .\..\..\..\objs\vc2010\x64\Debug\ftpfr.obj
+         .\..\..\..\objs\vc2010\x64\Debug\ftsynth.obj
+         .\..\..\..\objs\vc2010\x64\Debug\fttype1.obj
+         .\..\..\..\objs\vc2010\x64\Debug\ftwinfnt.obj
+         .\..\..\..\objs\vc2010\x64\Debug\ftlcdfil.obj
+         .\..\..\..\objs\vc2010\x64\Debug\ftgxval.obj
+         .\..\..\..\objs\vc2010\x64\Debug\ftotval.obj
+         .\..\..\..\objs\vc2010\x64\Debug\ftpatent.obj
+         .\..\..\..\objs\vc2010\x64\Debug\pcf.obj
+         .\..\..\..\objs\vc2010\x64\Debug\pfr.obj
+         .\..\..\..\objs\vc2010\x64\Debug\psaux.obj
+         .\..\..\..\objs\vc2010\x64\Debug\pshinter.obj
+         .\..\..\..\objs\vc2010\x64\Debug\psmodule.obj
+         .\..\..\..\objs\vc2010\x64\Debug\raster.obj
+         .\..\..\..\objs\vc2010\x64\Debug\sfnt.obj
+         .\..\..\..\objs\vc2010\x64\Debug\truetype.obj
+         .\..\..\..\objs\vc2010\x64\Debug\type1.obj
+         .\..\..\..\objs\vc2010\x64\Debug\type1cid.obj
+         .\..\..\..\objs\vc2010\x64\Debug\type42.obj
+         .\..\..\..\objs\vc2010\x64\Debug\winfnt.obj
+         freetype.vcxproj -> C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\builds\windows\vc2010\.\..\..\..\objs\vc2010\x64\freetype28d.lib
+       FinalizeBuildStatus:
+         ファイル ".\..\..\..\objs\vc2010\x64\Debug\freetype.tlog\unsuccessfulbuild" を削除しています。
+         ".\..\..\..\objs\vc2010\x64\Debug\freetype.tlog\freetype.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\builds\windows\vc2010\freetype.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+       "C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\builds\windows\vc2010\freetype.vcxproj" (Build ターゲット) (1) ->
+       (ClCompile ターゲット) -> 
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\autofit\afscript.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\autofit\afblue.c(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\autofit\afblue.c(253,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\autofit\afscript.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\autofit\afscript.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\autofit\afscript.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\autofit\afscript.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\autofit\afscript.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\cff\cffload.c(1368,69): warning C4244: '=': 'FT_UInt32' から 'FT_Byte' への変換です。データが失われる可能性があります。 (ソース ファイルをコンパイルしています ..\..\..\src\cff\cff.c)
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\base\ftobjs.c(4995): warning C4702: 制御が渡らないコードです。
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\base\ftobjs.c(4996): warning C4702: 制御が渡らないコードです。
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\psaux\t1decode.c(1356,27): warning C4267: '=': 'size_t' から 'FT_Int' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\psaux\psaux.c)
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\sfnt\sfdriver.c(838,32): warning C4267: '=': 'size_t' から 'FT_UInt' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\sfnt\sfnt.c)
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\sfnt\sfdriver.c(988,44): warning C4244: '関数': '__int64' から 'const unsigned int' への変換です。データが失われる可能性があります。 (ソース ファイルをコンパイルしています ..\..\..\src\sfnt\sfnt.c)
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\sfnt\ttload.c(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\sfnt\sfnt.c)
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\truetype\ttgload.c(1711,39): warning C4312: '型キャスト': 'unsigned long' からより大きいサイズの 'void *' へ変換します。 (ソース ファイルをコンパイルしています ..\..\..\src\truetype\truetype.c)
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\type1\t1driver.c(269,49): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\type1\t1driver.c(289,58): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\type1\t1driver.c(321,65): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\type1\t1driver.c(351,23): warning C4267: '=': 'size_t' から 'FT_UInt' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\type1\t1driver.c(558,57): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\type1\t1driver.c(564,56): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\type1\t1driver.c(570,59): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\type1\t1driver.c(576,61): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\type1\t1driver.c(582,56): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\type1\t1load.c(1528,68): warning C4244: '=': '__int64' から 'FT_Int' への変換です。データが失われる可能性があります。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\type1\t1load.c(1689,40): warning C4244: '=': '__int64' から 'FT_Int' への変換です。データが失われる可能性があります。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\truetype\ttobjs.c(810,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\truetype\truetype.c)
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\freetype-2.8\src\type42\t42parse.c(821,66): warning C4244: '=': '__int64' から 'FT_Int' への変換です。データが失われる可能性があります。 (ソース ファイルをコンパイルしています ..\..\..\src\type42\type42.c)
+
+    29 個の警告
+    0 エラー
+
+経過時間 00:00:01.84

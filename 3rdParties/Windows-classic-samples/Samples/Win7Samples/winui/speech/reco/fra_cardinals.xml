@@ -1,0 +1,80 @@
+﻿<GRAMMAR LANGID="40C">
+	<RULE NAME="DIGITS">
+		<L>
+			<p>un	</p>
+			<p>deux	</p>
+			<p>trois	</p>
+			<p>quatre	</p>
+			<p>cinq</p>
+			<p>six	</p>
+			<p>sept	</p>
+			<p>huit	</p>
+			<p>neuf</p>
+			<P>zéro</P>
+		</L>
+	</RULE>
+	<RULE NAME="1-99">
+		<L>
+			<P>
+				<L>
+					<P>
+						<RULEREF NAME="DIGITS"/>
+					</P>
+					<P> vingt</P>
+					<P> dix</P>
+					<P> onze</P>
+					<P> douce</P>
+					<P> treize</P>
+					<P> quatorze</P>
+					<P> quinze</P>
+				</L>
+			</P>
+			<P>
+				<L>
+					<P> dix</P>
+					<P> vingt</P>
+				</L>
+				<O>
+					<P>et </P>
+				</O>
+				<RULEREF NAME="DIGITS"/>
+			</P>
+			<P>
+				<L>
+					<P> trente</P>
+					<P> quarante</P>
+					<P> cinquante</P>
+					<P> soixante</P>
+					<P> soixante dix</P>
+					<P> quatre vingt</P>
+					<P> quatre vingt dix</P>
+				</L>
+				<O>
+					<RULEREF NAME="DIGITS"/>
+				</O>
+			</P>
+		</L>
+	</RULE>
+	<RULE NAME="1-999">
+		<O>
+			<RULEREF NAME="1-99"/>
+		</O>
+		<O>
+			<P>cent</P>
+		</O>
+		<O>
+			<RULEREF NAME="1-99"/>
+		</O>
+	</RULE>
+	<RULE NAME="NaturalNumbers" TOPLEVEL="ACTIVE">
+		<O>
+			<RULEREF NAME="1-999"/>
+		</O>
+		<O>
+			<P>mille</P>
+		</O>
+		<O>
+			<RULEREF NAME="1-999"/>
+		</O>
+	</RULE>
+</GRAMMAR>

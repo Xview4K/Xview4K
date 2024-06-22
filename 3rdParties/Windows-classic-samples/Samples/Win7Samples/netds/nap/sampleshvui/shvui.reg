@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\CLSID\{230b2a03-bbb3-4d50-839b-74f095e2b53e}]
+@="Sample System Health Validator Configuration UI"
+
+[HKEY_CLASSES_ROOT\CLSID\{230b2a03-bbb3-4d50-839b-74f095e2b53e}\LocalServer32]
+@="D:\\Windows\\System32\\shvcnfg.exe"
+"ThreadingModel"="Free"
+

@@ -1,0 +1,85 @@
+﻿2020/03/18 16:56:26 にビルドを開始しました。
+ログの詳細度は次のように設定されています: Normal。     1>ノード 2 上のプロジェクト "E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\BaseClasses\BaseClasses.vcxproj" (Rebuild ターゲット)。
+     1>_PrepareForClean:
+         ファイル "x64\Debug\BaseClasses.tlog\BaseClasses.lastbuildstate" を削除しています。
+       InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "x64\Debug\BaseClasses.tlog\unsuccessfulbuild" を作成しています。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\CL.exe /c /I"..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses" /ZI /nologo /W2 /WX- /diagnostics:column /Od /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /GF /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\BaseClasses.pdb" /Gd /TP /FC /errorReport:prompt "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\amextra.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\amfilter.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\amvideo.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\arithutil.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\combase.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\cprop.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\ctlutil.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\ddmm.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\dllentry.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\dllsetup.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\mtype.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\outputq.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\perflog.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\pstream.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\pullpin.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\refclock.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\renbase.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\schedule.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\seekpt.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\source.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\strmctl.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\sysclock.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\transfrm.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\transip.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\videoctl.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\vtrans.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\winctrl.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\winutil.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\wxdebug.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\wxlist.cpp" "..\..\3rdParties\Windows-classic-samples\Samples\Win7Samples\multimedia\directshow\baseclasses\wxutil.cpp"
+         amextra.cpp
+         amfilter.cpp
+         amvideo.cpp
+         arithutil.cpp
+         combase.cpp
+         cprop.cpp
+         ctlutil.cpp
+         ddmm.cpp
+         dllentry.cpp
+         dllsetup.cpp
+         mtype.cpp
+         outputq.cpp
+         perflog.cpp
+         pstream.cpp
+         pullpin.cpp
+         refclock.cpp
+         renbase.cpp
+         schedule.cpp
+         seekpt.cpp
+         source.cpp
+         コードを生成中...
+         コンパイル中...
+         strmctl.cpp
+         sysclock.cpp
+         transfrm.cpp
+         transip.cpp
+         videoctl.cpp
+         vtrans.cpp
+         winctrl.cpp
+         winutil.cpp
+         wxdebug.cpp
+         wxlist.cpp
+         wxutil.cpp
+         コードを生成中...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX86\x64\Lib.exe /OUT:"E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\Lib\x64\Debug\strmbasd.lib" strmiids.lib /NOLOGO /MACHINE:X64 x64\Debug\amextra.obj
+         x64\Debug\amfilter.obj
+         x64\Debug\amvideo.obj
+         x64\Debug\arithutil.obj
+         x64\Debug\combase.obj
+         x64\Debug\cprop.obj
+         x64\Debug\ctlutil.obj
+         x64\Debug\ddmm.obj
+         x64\Debug\dllentry.obj
+         x64\Debug\dllsetup.obj
+         x64\Debug\mtype.obj
+         x64\Debug\outputq.obj
+         x64\Debug\perflog.obj
+         x64\Debug\pstream.obj
+         x64\Debug\pullpin.obj
+         x64\Debug\refclock.obj
+         x64\Debug\renbase.obj
+         x64\Debug\schedule.obj
+         x64\Debug\seekpt.obj
+         x64\Debug\source.obj
+         x64\Debug\strmctl.obj
+         x64\Debug\sysclock.obj
+         x64\Debug\transfrm.obj
+         x64\Debug\transip.obj
+         x64\Debug\videoctl.obj
+         x64\Debug\vtrans.obj
+         x64\Debug\winctrl.obj
+         x64\Debug\winutil.obj
+         x64\Debug\wxdebug.obj
+         x64\Debug\wxlist.obj
+         x64\Debug\wxutil.obj
+         BaseClasses.vcxproj -> E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\Lib\x64\Debug\strmbasd.lib
+       FinalizeBuildStatus:
+         ファイル "x64\Debug\BaseClasses.tlog\unsuccessfulbuild" を削除しています。
+         "x64\Debug\BaseClasses.tlog\BaseClasses.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\BaseClasses\BaseClasses.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+    0 個の警告
+    0 エラー
+
+経過時間 00:00:13.36

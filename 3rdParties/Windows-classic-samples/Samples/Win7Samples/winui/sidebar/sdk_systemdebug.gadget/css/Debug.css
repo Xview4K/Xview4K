@@ -1,0 +1,49 @@
+/*
+ *************************************************************************
+ *
+ * File: Debug.css
+ *
+ * Description: 
+ * Stylesheet for the "Debug" Desktop Gadget sample. 
+ * 
+ * This file is part of the Microsoft Windows SDK Code Samples.
+ * 
+ * Copyright (C) Microsoft Corporation.  All rights reserved.
+ * 
+ * This source code is intended only as a supplement to Microsoft
+ * Development Tools and/or on-line documentation.  See these other
+ * materials for detailed information regarding Microsoft code samples.
+ * 
+ * THIS CODE AND INFORMATION ARE PROVIDED AS IS WITHOUT WARRANTY OF ANY
+ * KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+ * IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS FOR A
+ * PARTICULAR PURPOSE.
+ * 
+ ************************************************************************
+*/
+body 
+{
+    height: 300px;
+    width: 400px;
+    border: thin solid;
+    font-family: Tahoma;
+    font-size: x-small;
+}
+#divFileContent
+{
+    text-align: left;
+    word-wrap: break-word;
+}
+#spanFileControls
+{
+	margin: 5px;
+	text-align: center;
+	width: 100%;
+}
+#note
+{
+    border: thin solid;
+    padding: 2px;
+    font-family: Tahoma;
+    font-size: xx-small;
+}

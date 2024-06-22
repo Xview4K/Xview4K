@@ -1,0 +1,82 @@
+﻿<GRAMMAR LANGID="404">
+    <DEFINE>
+        <ID NAME="FROM" VAL="1"/>
+        <ID NAME="TO" VAL="2"/>
+        <ID NAME="SUIT" VAL="3"/>
+        <ID NAME="COLOR" VAL="4"/>
+        <ID NAME="RANK" VAL="5"/>
+        <ID NAME="ColorRed" VAL="11101"/>
+        <ID NAME="ColorBlack" VAL="10011"/>
+    </DEFINE>
+
+   <RULE NAME="newgame" TOPLEVEL="ACTIVE">
+      <P>新遊戲</P>
+   </RULE>
+
+   <RULE NAME="playcard" TOPLEVEL="ACTIVE" EXPORT="1">
+      <O>請</O>
+      <P>出</P>
+      <RULEREF NAME="card"/>
+   </RULE>
+
+   <RULE NAME="movecard" TOPLEVEL="ACTIVE">
+      <O>請</O>
+      <P>將</P>
+      <RULEREF PROPNAME="from" PROPID="FROM" NAME="card"/>
+      <L>
+          <P>放到</P>
+          <P>移到</P>
+      </L>
+      <RULEREF PROPNAME="to" PROPID="TO" NAME="card"/>
+      <O>上</O>
+   </RULE>
+
+   <RULE NAME="card">
+      <L>
+         <P>
+            <LN PROPNAME="color" PROPID="COLOR">
+               <PN VAL="ColorRed">紅</PN>
+               <PN VAL="ColorBlack">黑</PN>
+            </LN>
+            <RULEREF NAME="rank"/>
+         </P>
+         <P>
+            <RULEREF NAME="rank"/>
+            <O>
+               <LN PROPNAME="suit" PROPID="SUIT">
+                  <PN VAL="0">梅花</PN>
+                  <PN VAL="1">紅心</PN>
+                  <PN VAL="2">方塊</PN>
+                  <PN VAL="3">黑桃</PN>
+               </LN>
+            </O>
+         </P>
+         <LN PROPNAME="suit" PROPID="SUIT">
+            <PN VAL="0">梅花</PN>
+            <PN VAL="1">紅心</PN>
+            <PN VAL="2">方塊</PN>
+            <PN VAL="3">黑桃</PN>
+         </LN>
+      </L>
+   </RULE>
+
+   <RULE NAME="rank">
+      <LN PROPNAME="rank" PROPID="RANK">
+         <PN VAL="1">Ａ</PN>
+         <PN VAL="2">２</PN>
+         <PN VAL="3">３</PN>
+         <PN VAL="4">４</PN>
+         <PN VAL="5">５</PN>
+         <PN VAL="6">６</PN>
+         <PN VAL="7">７</PN>
+         <PN VAL="8">８</PN>
+         <PN VAL="9">９</PN>
+         <PN VAL="10">十</PN>
+         <PN VAL="11">Ｊ</PN>
+         <PN VAL="12">Ｑ</PN>
+         <PN VAL="13">Ｋ</PN>
+         <PN VAL="12">王后</PN>
+         <PN VAL="13">大王</PN>
+      </LN>
+   </RULE>
+</GRAMMAR>

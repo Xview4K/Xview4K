@@ -1,0 +1,226 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppClean.targets(77,5): warning : パス 'c:\xview4k\xview4k\x64\release\xview4k.exe' へのアクセスが拒否されました。
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(1091,5): warning MSB8027: stdafx.cpp という名前の複数のファイルでは、同じ場所に出力が生成されます。これにより、不適切なビルド結果が生じる可能性があります。関連するファイルは ..\projects\LAVSplitter\stdafx.cpp, stdafx.cpp です。
+  stdafx.cpp
+C:\Xview4K\Xview4Ktonsuke\ffmpeg\libavutil\rational.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  CIniFileAccess.cpp
+  common.cpp
+  crc32.cpp
+  DSFilterEnum.cpp
+  LAV_dllmain.cpp
+C:\Xview4K\Xview4Ktonsuke\ffmpeg\libavutil\rational.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  LAV_InputPin.cpp
+C:\Xview4K\Xview4Ktonsuke\ffmpeg\libavutil\rational.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  LAVSplitter.cpp
+C:\Xview4K\Xview4Ktonsuke\ffmpeg\libavutil\rational.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\Xview4K\Xview4Ktonsuke\projects\LAVSplitter\LAVSplitter.cpp(350,3): warning C5205: 非仮想デストラクターを持つ抽象クラス 'IPropertyPage' を削除すると、未定義の動作が発生します
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\ocidl.h(1729): message : 'IPropertyPage' の宣言を確認してください
+C:\Xview4K\Xview4Ktonsuke\projects\LAVSplitter\LAVSplitter.cpp(690,40): warning C4245: '引数': 'int' から 'DWORD' に変換しました。signed/unsigned が一致しません。
+C:\Xview4K\Xview4Ktonsuke\projects\LAVSplitter\LAVSplitter.cpp(1378,41): warning C4245: '=': 'int' から 'LCID' に変換しました。signed/unsigned が一致しません。
+  LAVSplitterTrayIcon.cpp
+C:\Xview4K\Xview4Ktonsuke\ffmpeg\libavutil\rational.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  LAV_OutputPin.cpp
+C:\Xview4K\Xview4Ktonsuke\ffmpeg\libavutil\rational.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\Xview4K\Xview4Ktonsuke\projects\LAVSplitter\LAV_OutputPin.cpp(337,28): warning C4458: 'pSplitter' を宣言すると、クラス メンバーが隠蔽されます
+C:\Xview4K\Xview4Ktonsuke\projects\LAVSplitter\LAV_OutputPin.h(171,17): message : 'CLAVOutputPin::pSplitter' の宣言を確認してください
+C:\Xview4K\Xview4Ktonsuke\projects\LAVSplitter\LAV_OutputPin.cpp(381,32): warning C4245: '引数': 'int' から 'DWORD' に変換しました。signed/unsigned が一致しません。
+  LAV_PacketAllocator.cpp
+C:\Xview4K\Xview4Ktonsuke\ffmpeg\libavutil\rational.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  LAV_PacketQueue.cpp
+C:\Xview4K\Xview4Ktonsuke\ffmpeg\libavutil\rational.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  LAV_SettingsProp.cpp
+C:\Xview4K\Xview4Ktonsuke\ffmpeg\libavutil\rational.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\Xview4K\Xview4Ktonsuke\projects\LAVSplitter\LAV_SettingsProp.cpp(323,17): warning C4389: '!=': signed と unsigned の数値を比較しようとしました。
+C:\Xview4K\Xview4Ktonsuke\projects\LAVSplitter\LAV_SettingsProp.cpp(382,20): warning C4389: '!=': signed と unsigned の数値を比較しようとしました。
+C:\Xview4K\Xview4Ktonsuke\projects\LAVSplitter\LAV_SettingsProp.cpp(396,20): warning C4389: '!=': signed と unsigned の数値を比較しようとしました。
+C:\Xview4K\Xview4Ktonsuke\projects\LAVSplitter\LAV_SettingsProp.cpp(410,22): warning C4389: '!=': signed と unsigned の数値を比較しようとしました。
+  LAV_StreamParser.cpp
+C:\Xview4K\Xview4Ktonsuke\ffmpeg\libavutil\rational.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+  AsyncOutPin.cpp
+  STREAMS.H included TWICE
+  STREAMS.H included TWICE
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\AsyncOutPin.cpp(172,24): warning C4838: 'DWORD_PTR' から 'DWORD' への変換には縮小変換が必要です
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\AsyncOutPin.cpp(172,24): warning C4244: '初期化中': 'DWORD_PTR' から 'DWORD' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\AsyncOutPin.cpp(156,11): warning C4189: 'llTotal': ローカル変数が初期化されましたが、参照されていません
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\AsyncOutPin.cpp(157,11): warning C4189: 'llAvailable': ローカル変数が初期化されましたが、参照されていません
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\AsyncOutPin.cpp(190,7): warning C4189: 'e': ローカル変数が初期化されましたが、参照されていません
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\AsyncOutPin.cpp(239,11): warning C4189: 'llTotal': ローカル変数が初期化されましたが、参照されていません
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\AsyncOutPin.cpp(240,11): warning C4189: 'llAvailable': ローカル変数が初期化されましたが、参照されていません
+  BonDriver.cpp
+  BonTuner.cpp
+  STREAMS.H included TWICE
+  STREAMS.H included TWICE
+  frame_buffer.cpp
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\frame_buffer.cpp(34,20): warning C4244: '初期化中': 'LONGLONG' から 'ULONG' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\frame_buffer.cpp(64,20): warning C4244: '初期化中': 'LONGLONG' から 'ULONG' への変換です。データが失われる可能性があります。
+  MyAyncSrcFilter.cpp
+  main.cpp
+  STREAMS.H included TWICE
+  STREAMS.H included TWICE
+C:\Xview4K\Xview4Ktonsuke\ffmpeg\libavutil\common.h(162,27): warning C4244: 'return': 'int' から 'uint8_t' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\ffmpeg\libavutil\common.h(173,34): warning C4244: 'return': 'int' から 'int8_t' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\ffmpeg\libavutil\common.h(184,29): warning C4244: 'return': 'int' から 'uint16_t' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\ffmpeg\libavutil\common.h(195,38): warning C4244: 'return': 'int' から 'int16_t' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\ffmpeg\libavutil\rational.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(612,16): warning C4244: '=': 'LONGLONG' から 'LONG' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(636,29): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(637,29): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(638,29): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(639,29): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(664,15): warning C4244: '=': 'LONGLONG' から 'LONG' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(730,17): warning C4244: '=': 'LONGLONG' から 'LONG' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(736,29): warning C4244: '=': '__int64' から 'LONG' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(750,28): warning C4244: '=': 'LONGLONG' から 'LONG' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(764,89): warning C4244: '=': 'DOUBLE' から 'LONG' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(787,30): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(788,30): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(789,30): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(790,30): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(815,17): warning C4244: '=': 'LONGLONG' から 'LONG' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(822,29): warning C4244: '=': '__int64' から 'LONG' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(836,28): warning C4244: '=': 'LONGLONG' から 'LONG' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(851,89): warning C4244: '=': 'DOUBLE' から 'LONG' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(874,30): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(875,30): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(876,30): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(877,30): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1054,132): warning C4244: '=': 'DOUBLE' から 'LONGLONG' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1059,17): warning C4244: '=': 'UINT' から 'UINT16' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1104,26): warning C4244: '初期化中': 'DOUBLE' から 'LONGLONG' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1110,16): warning C4244: '=': 'LONGLONG' から 'LONG' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1115,28): warning C4244: '=': '__int64' から 'LONG' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1147,29): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1148,29): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1149,29): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1150,29): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1227,24): warning C4244: '=': 'ULONGLONG' から 'LONG' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1228,46): warning C4244: '=': 'ULONGLONG' から 'LONG' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1253,24): warning C4244: '=': 'ULONGLONG' から 'LONG' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1254,46): warning C4244: '=': 'ULONGLONG' から 'LONG' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1269,45): warning C4244: '引数': 'ULONGLONG' から 'FT_UInt' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1269,29): warning C4244: '引数': 'ULONGLONG' から 'FT_UInt' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1272,46): warning C4244: '引数': 'ULONGLONG' から 'FT_Fixed' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1298,3): warning C4456: 'i' を宣言すると、以前のローカル宣言が隠蔽されます
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1214,11): message : 'i' の宣言を確認してください
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1336,26): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1355,29): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1356,29): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1357,29): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1358,29): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1371,26): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1390,29): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1391,29): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1392,29): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1393,29): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1398,46): warning C4244: '+=': 'ULONGLONG' から 'INT' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(984,12): warning C4102: 'SEEK_PLAY': ラベルは 1 度も参照されません。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1469,43): warning C4244: '引数': 'ULONGLONG' から 'FT_UInt' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1469,27): warning C4244: '引数': 'ULONGLONG' から 'FT_UInt' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1472,44): warning C4244: '引数': 'ULONGLONG' から 'FT_Fixed' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1517,25): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1536,28): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1537,28): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1538,28): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1539,28): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1552,25): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1571,28): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1572,28): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1573,28): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1574,28): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1579,45): warning C4244: '+=': 'ULONGLONG' から 'INT' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(2040,22): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(2078,27): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(2103,30): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(2104,30): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(2105,30): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(2106,30): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(2119,27): warning C4018: '<': signed と unsigned の数値を比較しようとしました。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(2144,30): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(2145,30): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(2146,30): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(2147,30): warning C4244: '=': 'DOUBLE' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1595,9): warning C4189: 'xml_id': ローカル変数が初期化されましたが、参照されていません
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(2245,3): warning C4996: '_swprintf': This function or variable may be unsafe. Consider using _swprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(2419,17): warning C4245: 'return': 'HRESULT' から 'DWORD' に変換しました。signed/unsigned が一致しません。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(2446,16): warning C4245: 'return': 'HRESULT' から 'DWORD' に変換しました。signed/unsigned が一致しません。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(2486,16): warning C4245: 'return': 'HRESULT' から 'DWORD' に変換しました。signed/unsigned が一致しません。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(2708,18): warning C4244: '=': 'int' から 'UINT16' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(2933,17): warning C4244: '=': 'UINT' から 'UINT16' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(3096,95): warning C4244: '引数': 'ULONGLONG' から 'UINT' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(3144,15): warning C4244: '=': 'DOUBLE' から 'LONG' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(3145,15): warning C4244: '=': 'DOUBLE' から 'LONG' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(3217,25): warning C4244: '=': 'WPARAM' から 'BYTE' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(3425,14): warning C4244: '=': 'DOUBLE' から 'LONG' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(3426,14): warning C4244: '=': 'DOUBLE' から 'LONG' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(4116,14): warning C4244: '=': 'DOUBLE' から 'LONG' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(4117,14): warning C4244: '=': 'DOUBLE' から 'LONG' への変換です。データが失われる可能性があります。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(4405,2): warning C4996: '_wsplitpath': This function or variable may be unsafe. Consider using _wsplitpath_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  stdafx.cpp
+  コンパイル中...
+  tlv_parse.cpp
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\mmtp.h(13,4): warning C4201: 非標準の拡張機能が使用されています: 無名の構造体または共用体です。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\mmtp.h(25,4): warning C4201: 非標準の拡張機能が使用されています: 無名の構造体または共用体です。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\mmtp.h(48,4): warning C4201: 非標準の拡張機能が使用されています: 無名の構造体または共用体です。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\mmtp.h(55,4): warning C4201: 非標準の拡張機能が使用されています: 無名の構造体または共用体です。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\mmtp.h(78,4): warning C4201: 非標準の拡張機能が使用されています: 無名の構造体または共用体です。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\mmtp.h(92,4): warning C4201: 非標準の拡張機能が使用されています: 無名の構造体または共用体です。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\mmtp.h(133,4): warning C4201: 非標準の拡張機能が使用されています: 無名の構造体または共用体です。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\mmtp.h(177,4): warning C4201: 非標準の拡張機能が使用されています: 無名の構造体または共用体です。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\mmtp.h(203,4): warning C4201: 非標準の拡張機能が使用されています: 無名の構造体または共用体です。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\mmtp.h(245,4): warning C4201: 非標準の拡張機能が使用されています: 無名の構造体または共用体です。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\mmtp.h(254,4): warning C4201: 非標準の拡張機能が使用されています: 無名の構造体または共用体です。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\mmtp.h(268,4): warning C4201: 非標準の拡張機能が使用されています: 無名の構造体または共用体です。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\mmtp.h(276,4): warning C4201: 非標準の拡張機能が使用されています: 無名の構造体または共用体です。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\mmtp.h(288,4): warning C4201: 非標準の拡張機能が使用されています: 無名の構造体または共用体です。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\mmtp.h(297,4): warning C4201: 非標準の拡張機能が使用されています: 無名の構造体または共用体です。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\mmtp.h(314,4): warning C4201: 非標準の拡張機能が使用されています: 無名の構造体または共用体です。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\mmtp.h(322,4): warning C4201: 非標準の拡張機能が使用されています: 無名の構造体または共用体です。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\mmtp.h(342,4): warning C4201: 非標準の拡張機能が使用されています: 無名の構造体または共用体です。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\mmtp.h(365,4): warning C4201: 非標準の拡張機能が使用されています: 無名の構造体または共用体です。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\mmtp.h(374,4): warning C4201: 非標準の拡張機能が使用されています: 無名の構造体または共用体です。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\mmtp.h(391,4): warning C4201: 非標準の拡張機能が使用されています: 無名の構造体または共用体です。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\mmtp.h(399,4): warning C4201: 非標準の拡張機能が使用されています: 無名の構造体または共用体です。
+  STREAMS.H included TWICE
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\tlv_parse.cpp(403,29): warning C4267: '=': 'size_t' から 'ULONG' に変換しました。データが失われているかもしれません。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\tlv_parse.cpp(1559,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\tlv_parse.cpp(1560,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\tlv_parse.cpp(1561,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\tlv_parse.cpp(1566,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\tlv_parse.cpp(1567,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\tlv_parse.cpp(1568,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\tlv_parse.cpp(1825,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\tlv_parse.cpp(1826,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\tlv_parse.cpp(1827,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\tlv_parse.cpp(1831,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\tlv_parse.cpp(1832,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\tlv_parse.cpp(1833,6): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\tlv_parse.cpp(2053,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\tlv_parse.cpp(2054,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\tlv_parse.cpp(2055,5): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\tlv_parse.cpp(1290,13): warning C4189: 'descriptor_length': ローカル変数が初期化されましたが、参照されていません
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\tlv_parse.cpp(1434,10): warning C4189: 'r': ローカル変数が初期化されましたが、参照されていません
+  TSMF.cpp
+  tswriter.cpp
+  TS_BUFF.cpp
+  a_cas_card.c
+C:\Program Files (x86)\Windows Kits\8.1\Include\shared\winsmcrd.h(291,21): warning C4201: 非標準の拡張機能が使用されています: 無名の構造体または共用体です。
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\winscard.h(1103,6): warning C4201: 非標準の拡張機能が使用されています: 無名の構造体または共用体です。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\a_cas_card.c(319,56): warning C4100: 'casid': 引数は関数の本体部で 1 度も参照されません。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\a_cas_card.c(328,11): warning C4101: 'tail': ローカル変数は 1 度も使われていません。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\a_cas_card.c(329,11): warning C4101: 'temp': ローカル変数は 1 度も使われていません。
+x64\Release\stdafx.obj : warning LNK4042: オブジェクトの指定が重複しています。余分なものは無視されます。
+demuxersd.lib(LAVFDemuxer.obj) : warning LNK4075: /EDITANDCONTINUE は /OPT:ICF の指定によって無視されます。
+     ライブラリ C:\Xview4K\Xview4Ktonsuke\x64\Release\Xview4K.lib とオブジェクト C:\Xview4K\Xview4Ktonsuke\x64\Release\Xview4K.exp を作成中
+LINK : warning LNK4098: defaultlib 'LIBCMT' は他のライブラリの使用と競合しています。/NODEFAULTLIB:library を使用してください。
+  コード生成しています。
+  Previous IPDB not found, fall back to full compilation.
+C:\Xview4K\Xview4Ktonsuke\projects\LAVSplitter\LAVSplitterTrayIcon.cpp(116): warning C4706: 条件式の比較値は、代入の結果になっています。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(2419): warning C4702: 制御が渡らないコードです。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(2446): warning C4702: 制御が渡らないコードです。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(2486): warning C4702: 制御が渡らないコードです。
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1339): warning C4701: 初期化されていない可能性のあるローカル変数 'offsetX' が使用されます
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\main.cpp(1339): warning C4701: 初期化されていない可能性のあるローカル変数 'offsetY' が使用されます
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\tlv_parse.cpp(703): warning C4701: 初期化されていない可能性のあるローカル変数 'header_ext' が使用されます
+C:\Xview4K\Xview4Ktonsuke\BonDriver_BDA\tlv_parse.cpp(703): warning C4703: 初期化されていない可能性のあるローカル ポインター変数 'header_ext' が使用されています
+  All 5612 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  BonDriver.vcxproj -> C:\Xview4K\Xview4Ktonsuke\x64\Release\Xview4K.exe

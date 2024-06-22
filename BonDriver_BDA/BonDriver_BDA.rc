@@ -1,0 +1,237 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource2.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 (日本) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource2.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU
+BEGIN
+    POPUP "PopupMenu0"
+    BEGIN
+        POPUP "チャンネル"
+        BEGIN
+            MENUITEM "NHK BS 4K",                 ID_40002
+            MENUITEM "BS朝日 4K",                  ID_40003
+            MENUITEM "BSテレ東 4K",                  ID_40004
+            MENUITEM "BS日テレ 4K",                 ID_40005
+            MENUITEM "ショップチャンネル 4K",                ID_40006
+            MENUITEM "QVC 4K",                      ID_40007
+            MENUITEM "空きチャンネル 8K",                    ID_40008
+            MENUITEM "BS TBS 4K",                ID_40009
+            MENUITEM "BSフジ 4K",                ID_40010
+            MENUITEM "WOWOW 4K",                ID_40011
+            MENUITEM "空きチャンネル 4K",                ID_40012
+        END
+        POPUP "表示サイズ"
+        BEGIN
+            MENUITEM "1:6 360p   16.7%",            ID_40040
+            MENUITEM "1:5 432p   20%",              ID_40041
+            MENUITEM "1:4 540p   25%",              ID_40042
+            MENUITEM "1:3 720p   33.3%",            ID_40043
+            MENUITEM "1:2 1080p 50%",               ID_40044
+            MENUITEM "3:4 1620p 75%",               ID_40045
+            MENUITEM "1:1 2160p 100%",              ID_40046
+            MENUITEM "2:1 4120p 200%",              ID_40047
+        END
+        POPUP "音量"
+        BEGIN
+            MENUITEM "最大 (100%)",                   ID_50001
+            MENUITEM "大 (75%)",                     ID_50002
+            MENUITEM "中 (50%)",                     ID_50003
+            MENUITEM "小 (25%)",                     ID_50004
+            MENUITEM "消音 (ミュート)",                   ID_50005
+        END
+        MENUITEM "再生停止",                        ID_POPUPMENU0_40024
+        MENUITEM "番組情報",                        ID_POPUPMENU0_40011
+        MENUITEM "録画ファイルを開く",                   ID_POPUPMENU0_40053
+        MENUITEM SEPARATOR
+        MENUITEM "常に前面に表示",                     ID_POPUPMENU0_40023
+        MENUITEM "字幕表示",                        ID_POPUPMENU0_40050
+        MENUITEM "時計表示",                        ID_POPUPMENU0_40052
+        MENUITEM "フルスクリーン表示",                   ID_POPUPMENU0_40051
+        MENUITEM "タイトルバー非表示",                   ID_POPUPMENU0_40003
+        MENUITEM SEPARATOR
+        MENUITEM "デバッグ情報",                      ID_POPUPMENU0_50000
+        MENUITEM SEPARATOR
+        MENUITEM "終了",                          ID_POPUPMENU0_40002
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "icon1.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_FORMVIEW DIALOGEX 0, 0, 107, 243
+STYLE DS_SETFONT | DS_SETFOREGROUND | DS_CENTER | DS_CENTERMOUSE | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOPMOST
+CAPTION "デバッグ情報"
+FONT 9, "MS UI Gothic", 400, 0, 0x0
+BEGIN
+END
+
+IDD_DIALOG1 DIALOGEX 0, 0, 239, 126
+STYLE DS_SETFONT | WS_POPUP | WS_CLIPCHILDREN | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_TOOLWINDOW
+CAPTION "番組情報"
+FONT 10, "メイリオ", 400, 0, 0x80
+BEGIN
+    CONTROL         "",IDC_TAB1,"SysTabControl32",0x0,0,0,230,12
+    EDITTEXT        IDC_EDIT1,0,10,239,116,ES_MULTILINE | ES_AUTOVSCROLL | ES_READONLY | ES_WANTRETURN | NOT WS_BORDER | WS_VSCROLL
+END
+
+IDD_FORMVIEW1 DIALOGEX 0, 0, 311, 86
+STYLE DS_SETFONT | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "番組を選択してください"
+FONT 9, "MS UI Gothic", 400, 0, 0x0
+BEGIN
+    CONTROL         "Radio1",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | BS_LEFT | BS_MULTILINE,4,10,302,20
+    CONTROL         "Radio2",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | BS_LEFT | BS_MULTILINE,4,32,296,22
+    PUSHBUTTON      "OK",IDC_BUTTON1,253,65,50,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_FORMVIEW, DIALOG
+    BEGIN
+    END
+
+    IDD_DIALOG1, DIALOG
+    BEGIN
+    END
+
+    IDD_FORMVIEW1, DIALOG
+    BEGIN
+        RIGHTMARGIN, 308
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_FORMVIEW AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_FORMVIEW1 AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP                  "Xview4K.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RAW_IMAGE
+//
+
+IDR_RAW_IMAGE_SEEKBAR_2560x300 RAW_IMAGE               "seekbar_2560x300.img"
+
+IDR_RAW_IMAGE_SEEKPOINT_65x65 RAW_IMAGE               "seekpoint_65x65.img"
+
+IDR_RAW_IMAGE_SEEKBAR2_2560x300 RAW_IMAGE               "seekbar2_2560x300.img"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Font
+//
+
+IDR_FONT1               FONT                    "rounded-x-mplus-2p-medium.ttf"
+
+#endif    // 日本語 (日本) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

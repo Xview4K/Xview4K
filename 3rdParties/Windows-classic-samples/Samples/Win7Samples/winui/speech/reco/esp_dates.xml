@@ -1,0 +1,192 @@
+﻿<GRAMMAR LANGID="40A">
+	<RULE NAME="DIGITS">
+		<L>
+		<P>UNO </P>
+		<P>DOS </P>
+		<P>TRES</P>
+		<P>CUATRO </P>
+		<P>CINCO</P>
+		<P>SEIS</P>
+		<P>SIETE</P>
+		<P>OCHO</P>
+		<P>NUEVE</P>
+		</L>
+	</RULE>
+	<RULE NAME="DIAS" >
+		<L>
+			<P> LUNES </P>
+			<P> MARTES </P>
+			<P> MIÉRCOLES </P>
+			<P> JUEVES </P>
+			<P> VIERNES </P>
+			<P> SÁBADO </P>
+			<P> DOMINGO </P>
+		</L>
+	</RULE>
+	<RULE NAME="NUMERO-DIA" >
+		<L>	
+			<P>
+				<O>
+					<L>
+						<P> DIECI </P>
+						<P> VEINTI </P>
+						<P> TREINTA Y </P>
+					</L>
+				</O>
+				<RULEREF NAME="DIGITS"/>
+			</P>
+			<P> DIEZ </P>
+			<P> ONCE </P>
+			<P> DOCE </P>
+			<P> TRECE </P>
+			<P> CATORCE </P>
+			<P> QUINCE </P>
+			<P> VEINTE </P>
+			<P> TREINTA </P>
+		</L>
+	</RULE>
+	<RULE NAME="MES" >
+		<L>
+			<P> ENERO </P>
+			<P> FEBRERO </P>
+			<P> MARZO </P>
+			<P> ABRIL </P>
+			<P> MAYO </P>
+			<P> JUNIO </P>
+			<P> JULIO </P>
+			<P> AGOSTO </P>
+			<P> SEPTIEMBRE </P>
+			<P> OCTUBRE </P>
+			<P> NOVIEMBRE </P>
+			<P> DICIEMBRE </P>
+		</L>
+	</RULE>
+	<RULE NAME="NUMERO-MES" >
+		<L>
+			<P>UNO </P>
+			<P>DOS </P>
+			<P>TRES</P>
+			<P>CUATRO </P>
+			<P>CINCO</P>
+			<P>SEIS</P>
+			<P>SIETE</P>
+			<P>OCHO</P>
+			<P>NUEVE</P>
+			<P>DIEZ</P>
+			<P>ONCE</P>
+			<P>DOCE</P>
+		</L>
+	</RULE>
+	<RULE NAME="AÑOS" >
+		<P>
+			
+			<O>
+				<O> <RULEREF NAME="NUMERITOS_ANTES"/> </O>
+				<P> MIL </P>
+			</O>
+			<P>
+				<L>
+					<P> 	<RULEREF NAME="NUMERITOS_CIENTOS"/> 
+					    	CIENTOS 
+						<RULEREF NAME="1-99"/>
+					</P>
+					<P> 	CIENTO
+						<O> <RULEREF NAME="1-99"/> </O> 
+					</P>
+					<P>
+						<RULEREF NAME="1-99"/>
+					</P>
+				</L>
+			</P>			
+		</P>
+
+	</RULE>
+	<RULE NAME="NUMERITOS_ANTES" > 
+		<L>
+			<P>UN </P>
+			<P>DOS </P>
+			<P>TRES</P>
+			<P>CUATRO </P>
+			<P>CINCO</P>
+			<P>SEIS</P>
+			<P>SIETE</P>
+			<P>OCHO</P>
+			<P>NUEVE</P>
+		</L>
+	</RULE>
+	<RULE NAME="NUMERITOS_CIENTOS" > 
+		<L>
+			<P>DOS </P>
+			<P>TRES</P>
+			<P>CUATRO </P>
+			<P>CINCO</P>
+			<P>SEIS</P>
+			<P>SETE</P>
+			<P>OCHO</P>
+			<P>NOVE</P>
+		</L>
+	</RULE>
+	<RULE NAME="1-99" >
+		<L>
+			<P>
+				<L>
+					<P> <RULEREF NAME="DIGITS"/> </P>
+					<P> VEINTE </P>
+					<P> DIEZ </P>
+					<P> ONCE </P>
+					<P> DOCE </P>
+					<P> TRECE </P>
+					<P> CATORCE </P>
+					<P> QUINCE </P>
+				</L>
+			</P>
+
+			<P>
+				<L>
+					<P> DIECI </P>
+					<P> VEINTI </P>
+				</L>
+				<RULEREF NAME="DIGITS"/>
+			</P>
+
+
+			<P>
+				<L>	
+					<P> TREINTA </P>
+					<P> CUARENTA </P> 
+					<P> CINCUENTA </P>
+					<P> SESENTA </P>
+					<P> SETENTA </P> 
+					<P> OCHENTA </P> 
+					<P> NOVENTA </P> 
+				</L>
+				<O>
+					<P> Y </P>
+					<RULEREF NAME="DIGITS"/>
+				</O>
+			</P>
+			
+		</L>
+	</RULE>
+	<RULE NAME="DATES" TOPLEVEL="ACTIVE">
+		<P>
+			<L>
+				<P> <RULEREF NAME="DIAS" /> </P>
+				<P> <O> EL </O> <RULEREF NAME="NUMERO-DIA"/> </P>
+			</L>
+			<L>
+				<P> DE <RULEREF NAME="MES"/> </P>
+				<P> DEL <RULEREF NAME="NUMERO-MES"/> </P>
+			</L>
+			<O>
+				<O>
+					<L>
+						<P> DEL </P>
+						<P> DE  </P>
+					</L>
+				</O>
+				<RULEREF NAME="AÑOS"/>
+			</O>
+		</P>
+	</RULE>
+</GRAMMAR>

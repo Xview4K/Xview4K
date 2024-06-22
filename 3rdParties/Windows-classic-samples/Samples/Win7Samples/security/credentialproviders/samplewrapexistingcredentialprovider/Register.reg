@@ -1,0 +1,12 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Authentication\Credential Providers\{ACFC407B-266C-4085-8DAE-F3E276336E4B}]
+@="SampleWrapExistingCredentialProvider"
+
+[HKEY_CLASSES_ROOT\CLSID\{ACFC407B-266C-4085-8DAE-F3E276336E4B}]
+@="SampleWrapExistingCredentialProvider"
+
+[HKEY_CLASSES_ROOT\CLSID\{ACFC407B-266C-4085-8DAE-F3E276336E4B}\InprocServer32]
+@="SampleWrapExistingCredentialProvider.dll"
+"ThreadingModel"="Apartment"
+

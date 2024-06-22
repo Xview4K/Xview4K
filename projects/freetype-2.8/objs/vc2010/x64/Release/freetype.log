@@ -1,0 +1,198 @@
+﻿2020/04/07 18:20:52 にビルドを開始しました。
+ログの詳細度は次のように設定されています: Normal。     1>ノード 3 上のプロジェクト "E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\builds\windows\vc2010\freetype.vcxproj" (Rebuild ターゲット)。
+     1>_PrepareForClean:
+         ファイル ".\..\..\..\objs\vc2010\x64\Release\freetype.tlog\freetype.lastbuildstate" を削除しています。
+       InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため ".\..\..\..\objs\vc2010\x64\Release\freetype.tlog\unsuccessfulbuild" を作成しています。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\HostX86\x64\CL.exe /c /I..\..\..\include /nologo /W4 /WX- /diagnostics:column /MP /Ox /Ob2 /Oi /Oy /GT /D NDEBUG /D WIN32 /D _LIB /D _CRT_SECURE_NO_WARNINGS /D FT2_BUILD_LIBRARY /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /arch:SSE2 /fp:precise /fp:except- /Za /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\..\..\..\objs\vc2010\x64\Release\\" /Gd /TC /wd4001 /FC /errorReport:prompt ..\..\..\src\autofit\autofit.c ..\..\..\src\base\ftbitmap.c ..\..\..\src\base\ftfstype.c ..\..\..\src\base\ftgasp.c ..\..\..\src\base\ftstroke.c ..\..\..\src\base\ftbbox.c ..\..\..\src\base\ftfntfmt.c ..\..\..\src\base\ftpfr.c ..\..\..\src\base\ftsynth.c ..\..\..\src\base\fttype1.c ..\..\..\src\base\ftwinfnt.c ..\..\..\src\base\ftlcdfil.c ..\..\..\src\base\ftgxval.c ..\..\..\src\base\ftotval.c ..\..\..\src\base\ftpatent.c
+     1>cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+     1>cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+         autofit.c
+     1>cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+         ftbitmap.c
+     1>cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+         ftfstype.c
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\autofit\afscript.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\autofit\afblue.c(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+     1>cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+         ftgasp.c
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\autofit\afblue.c(253,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\autofit\afscript.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+     1>cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+         ftstroke.c
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\autofit\afscript.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\autofit\afscript.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\autofit\afscript.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\autofit\afscript.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+     1>cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+         ftbbox.c
+         ftfntfmt.c
+         ftpfr.c
+         ftsynth.c
+         fttype1.c
+         ftwinfnt.c
+         ftlcdfil.c
+         ftgxval.c
+         ftotval.c
+         ftpatent.c
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\HostX86\x64\CL.exe /c /I..\..\..\include /nologo /W4 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /Oy /GT /D NDEBUG /D WIN32 /D _LIB /D _CRT_SECURE_NO_WARNINGS /D FT2_BUILD_LIBRARY /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /arch:SSE2 /fp:precise /fp:except- /Za /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\..\..\..\objs\vc2010\x64\Release\\" /Gd /TC /wd4001 /FC /errorReport:prompt ..\..\..\src\bdf\bdf.c ..\..\..\src\cff\cff.c ..\..\..\src\base\ftbase.c ..\..\..\src\cache\ftcache.c ..\..\..\src\base\ftglyph.c ..\..\..\src\gzip\ftgzip.c ..\..\..\src\base\ftinit.c ..\..\..\src\lzw\ftlzw.c ..\..\..\src\base\ftsystem.c ..\..\..\src\smooth\smooth.c ..\..\..\src\base\ftmm.c ..\..\..\src\pcf\pcf.c ..\..\..\src\pfr\pfr.c ..\..\..\src\psaux\psaux.c ..\..\..\src\pshinter\pshinter.c ..\..\..\src\psnames\psmodule.c ..\..\..\src\raster\raster.c ..\..\..\src\sfnt\sfnt.c ..\..\..\src\truetype\truetype.c ..\..\..\src\type1\type1.c ..\..\..\src\cid\type1cid.c ..\..\..\src\type42\type42.c ..\..\..\src\winfonts\winfnt.c
+     1>cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+     1>cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+         bdf.c
+     1>cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+         cff.c
+     1>cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+         ftbase.c
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\cff\cffload.c(1368,69): warning C4244: '=': 'FT_UInt32' から 'FT_Byte' への変換です。データが失われる可能性があります。 (ソース ファイルをコンパイルしています ..\..\..\src\cff\cff.c)
+     1>cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+         ftcache.c
+     1>cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+         ftglyph.c
+     1>cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+         ftgzip.c
+         ftinit.c
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\base\ftutil.c(171): warning C4702: 制御が渡らないコードです。
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\base\ftobjs.c(4996): warning C4702: 制御が渡らないコードです。
+         ftlzw.c
+         ftsystem.c
+         smooth.c
+         ftmm.c
+         pcf.c
+         pfr.c
+         psaux.c
+         pshinter.c
+         psmodule.c
+         raster.c
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\psaux\t1decode.c(1356,27): warning C4267: '=': 'size_t' から 'FT_Int' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\psaux\psaux.c)
+         sfnt.c
+         truetype.c
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\sfnt\sfdriver.c(838,32): warning C4267: '=': 'size_t' から 'FT_UInt' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\sfnt\sfnt.c)
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\sfnt\sfdriver.c(988,44): warning C4244: '関数': '__int64' から 'const unsigned int' への変換です。データが失われる可能性があります。 (ソース ファイルをコンパイルしています ..\..\..\src\sfnt\sfnt.c)
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\truetype\ttgload.c(1711,39): warning C4312: '型キャスト': 'unsigned long' からより大きいサイズの 'void *' へ変換します。 (ソース ファイルをコンパイルしています ..\..\..\src\truetype\truetype.c)
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\sfnt\ttload.c(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\sfnt\sfnt.c)
+         type1.c
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\truetype\ttobjs.c(810,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\truetype\truetype.c)
+         type1cid.c
+         type42.c
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\type1\t1driver.c(269,49): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\type1\t1driver.c(289,58): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\type1\t1driver.c(321,65): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\type1\t1driver.c(351,23): warning C4267: '=': 'size_t' から 'FT_UInt' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\type1\t1driver.c(558,57): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\type1\t1driver.c(564,56): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\type1\t1driver.c(570,59): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\type1\t1driver.c(576,61): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\type1\t1driver.c(582,56): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\type1\t1load.c(1528,68): warning C4244: '=': '__int64' から 'FT_Int' への変換です。データが失われる可能性があります。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\type1\t1load.c(1689,40): warning C4244: '=': '__int64' から 'FT_Int' への変換です。データが失われる可能性があります。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+     1>E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\type42\t42parse.c(821,66): warning C4244: '=': '__int64' から 'FT_Int' への変換です。データが失われる可能性があります。 (ソース ファイルをコンパイルしています ..\..\..\src\type42\type42.c)
+         winfnt.c
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\HostX86\x64\CL.exe /c /I..\..\..\include /nologo /W4 /WX- /diagnostics:column /MP /O2 /Ob2 /Oi /Oy /GT /D NDEBUG /D WIN32 /D _LIB /D _CRT_SECURE_NO_WARNINGS /D FT2_BUILD_LIBRARY /D _MBCS /GF /Gm- /EHsc /MT /GS /Gy /arch:SSE2 /fp:precise /fp:except- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo".\..\..\..\objs\vc2010\x64\Release\\" /Gd /TC /wd4001 /FC /errorReport:prompt ..\ftdebug.c
+     1>cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+         ftdebug.c
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\HostX86\x64\Lib.exe /OUT:".\..\..\..\objs\vc2010\x64\freetype28.lib" /NOLOGO /MACHINE:X64 /LTCG .\..\..\..\objs\vc2010\x64\Release\autofit.obj
+         .\..\..\..\objs\vc2010\x64\Release\bdf.obj
+         .\..\..\..\objs\vc2010\x64\Release\cff.obj
+         .\..\..\..\objs\vc2010\x64\Release\ftbase.obj
+         .\..\..\..\objs\vc2010\x64\Release\ftbitmap.obj
+         .\..\..\..\objs\vc2010\x64\Release\ftcache.obj
+         .\..\..\..\objs\vc2010\x64\Release\ftdebug.obj
+         .\..\..\..\objs\vc2010\x64\Release\ftfstype.obj
+         .\..\..\..\objs\vc2010\x64\Release\ftgasp.obj
+         .\..\..\..\objs\vc2010\x64\Release\ftglyph.obj
+         .\..\..\..\objs\vc2010\x64\Release\ftgzip.obj
+         .\..\..\..\objs\vc2010\x64\Release\ftinit.obj
+         .\..\..\..\objs\vc2010\x64\Release\ftlzw.obj
+         .\..\..\..\objs\vc2010\x64\Release\ftstroke.obj
+         .\..\..\..\objs\vc2010\x64\Release\ftsystem.obj
+         .\..\..\..\objs\vc2010\x64\Release\smooth.obj
+         .\..\..\..\objs\vc2010\x64\Release\ftbbox.obj
+         .\..\..\..\objs\vc2010\x64\Release\ftfntfmt.obj
+         .\..\..\..\objs\vc2010\x64\Release\ftmm.obj
+         .\..\..\..\objs\vc2010\x64\Release\ftpfr.obj
+         .\..\..\..\objs\vc2010\x64\Release\ftsynth.obj
+         .\..\..\..\objs\vc2010\x64\Release\fttype1.obj
+         .\..\..\..\objs\vc2010\x64\Release\ftwinfnt.obj
+         .\..\..\..\objs\vc2010\x64\Release\ftlcdfil.obj
+         .\..\..\..\objs\vc2010\x64\Release\ftgxval.obj
+         .\..\..\..\objs\vc2010\x64\Release\ftotval.obj
+         .\..\..\..\objs\vc2010\x64\Release\ftpatent.obj
+         .\..\..\..\objs\vc2010\x64\Release\pcf.obj
+         .\..\..\..\objs\vc2010\x64\Release\pfr.obj
+         .\..\..\..\objs\vc2010\x64\Release\psaux.obj
+         .\..\..\..\objs\vc2010\x64\Release\pshinter.obj
+         .\..\..\..\objs\vc2010\x64\Release\psmodule.obj
+         .\..\..\..\objs\vc2010\x64\Release\raster.obj
+         .\..\..\..\objs\vc2010\x64\Release\sfnt.obj
+         .\..\..\..\objs\vc2010\x64\Release\truetype.obj
+         .\..\..\..\objs\vc2010\x64\Release\type1.obj
+         .\..\..\..\objs\vc2010\x64\Release\type1cid.obj
+         .\..\..\..\objs\vc2010\x64\Release\type42.obj
+         .\..\..\..\objs\vc2010\x64\Release\winfnt.obj
+         freetype.vcxproj -> E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\builds\windows\vc2010\.\..\..\..\objs\vc2010\x64\freetype28.lib
+       FinalizeBuildStatus:
+         ファイル ".\..\..\..\objs\vc2010\x64\Release\freetype.tlog\unsuccessfulbuild" を削除しています。
+         ".\..\..\..\objs\vc2010\x64\Release\freetype.tlog\freetype.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\builds\windows\vc2010\freetype.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+       "E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\builds\windows\vc2010\freetype.vcxproj" (Rebuild ターゲット) (1) ->
+       (ClCompile ターゲット) -> 
+         cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+         cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+         cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+         cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\autofit\afscript.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\autofit\afblue.c(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+         cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\autofit\afblue.c(253,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\autofit\afscript.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+         cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\autofit\afscript.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\autofit\afscript.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\autofit\afscript.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\autofit\afscript.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\autofit\autofit.c)
+         cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+
+
+       "E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\builds\windows\vc2010\freetype.vcxproj" (Rebuild ターゲット) (1) ->
+         cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+         cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+         cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+         cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\cff\cffload.c(1368,69): warning C4244: '=': 'FT_UInt32' から 'FT_Byte' への変換です。データが失われる可能性があります。 (ソース ファイルをコンパイルしています ..\..\..\src\cff\cff.c)
+         cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+         cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+         cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\base\ftutil.c(171): warning C4702: 制御が渡らないコードです。
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\base\ftobjs.c(4996): warning C4702: 制御が渡らないコードです。
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\psaux\t1decode.c(1356,27): warning C4267: '=': 'size_t' から 'FT_Int' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\psaux\psaux.c)
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\sfnt\sfdriver.c(838,32): warning C4267: '=': 'size_t' から 'FT_UInt' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\sfnt\sfnt.c)
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\sfnt\sfdriver.c(988,44): warning C4244: '関数': '__int64' から 'const unsigned int' への変換です。データが失われる可能性があります。 (ソース ファイルをコンパイルしています ..\..\..\src\sfnt\sfnt.c)
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\truetype\ttgload.c(1711,39): warning C4312: '型キャスト': 'unsigned long' からより大きいサイズの 'void *' へ変換します。 (ソース ファイルをコンパイルしています ..\..\..\src\truetype\truetype.c)
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\sfnt\ttload.c(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\sfnt\sfnt.c)
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\truetype\ttobjs.c(810,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。 (ソース ファイルをコンパイルしています ..\..\..\src\truetype\truetype.c)
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\type1\t1driver.c(269,49): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\type1\t1driver.c(289,58): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\type1\t1driver.c(321,65): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\type1\t1driver.c(351,23): warning C4267: '=': 'size_t' から 'FT_UInt' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\type1\t1driver.c(558,57): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\type1\t1driver.c(564,56): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\type1\t1driver.c(570,59): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\type1\t1driver.c(576,61): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\type1\t1driver.c(582,56): warning C4267: '=': 'size_t' から 'FT_ULong' に変換しました。データが失われているかもしれません。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\type1\t1load.c(1528,68): warning C4244: '=': '__int64' から 'FT_Int' への変換です。データが失われる可能性があります。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\type1\t1load.c(1689,40): warning C4244: '=': '__int64' から 'FT_Int' への変換です。データが失われる可能性があります。 (ソース ファイルをコンパイルしています ..\..\..\src\type1\type1.c)
+         E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\src\type42\t42parse.c(821,66): warning C4244: '=': '__int64' から 'FT_Int' への変換です。データが失われる可能性があります。 (ソース ファイルをコンパイルしています ..\..\..\src\type42\type42.c)
+
+
+       "E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\freetype-2.8\builds\windows\vc2010\freetype.vcxproj" (Rebuild ターゲット) (1) ->
+         cl : コマンド ライン warning D9002: 不明なオプション '/arch:SSE2' を無視します。
+
+    44 個の警告
+    0 エラー
+
+経過時間 00:00:05.25

@@ -1,0 +1,40 @@
+﻿  wxutil.cpp
+cl : コマンド ライン warning D9035: オプション 'Gm' の使用は現在推奨されていません。今後のバージョンからは削除されます。
+C:\Users\n6ne\Downloads\1601127204\MiSeTe4K_source_20200926\common\baseclasses\wxutil.cpp(753,1): warning C4996: 'GetVersionExW': が古い形式として宣言されました。
+  wxlist.cpp
+  wxdebug.cpp
+  winutil.cpp
+  winctrl.cpp
+  vtrans.cpp
+  videoctl.cpp
+  transip.cpp
+  transfrm.cpp
+  sysclock.cpp
+  strmctl.cpp
+  source.cpp
+  seekpt.cpp
+  schedule.cpp
+  renbase.cpp
+  refclock.cpp
+  pullpin.cpp
+  pstream.cpp
+  perflog.cpp
+  outputq.cpp
+  コードを生成中...
+  コンパイル中...
+  mtype.cpp
+  dllsetup.cpp
+  dllentry.cpp
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(442): message : 'GetVersionExW' の宣言を確認してください
+C:\Users\n6ne\Downloads\1601127204\MiSeTe4K_source_20200926\common\baseclasses\dllentry.cpp(314,1): warning C4996: 'GetVersionExW': が古い形式として宣言されました。
+  ddmm.cpp
+  ctlutil.cpp
+  cprop.cpp
+  combase.cpp
+  arithutil.cpp
+  amvideo.cpp
+  amfilter.cpp
+  amextra.cpp
+  コードを生成中...
+C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(442): message : 'GetVersionExW' の宣言を確認してください
+  baseclasses.vcxproj -> C:\Users\n6ne\Downloads\1601127204\MiSeTe4K_source_20200926\bin_Win32d\lib\strmbasd.lib

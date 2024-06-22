@@ -1,0 +1,133 @@
+<!-- ---------------------------------------------------------------------
+//
+//  Copyright (c) Microsoft Corporation.  All Rights Reserved.
+//
+//  File:         datetime.htc
+//
+//  Description:  The WMI datetime behavior provides an easy, declarative way
+//                to add graphical control for the display of WMI datetime 
+//				  values to web pages and html based applications.  
+//
+//-------------------------------------------------------------------- -->
+
+<PUBLIC:COMPONENT>
+ <PUBLIC:PROPERTY NAME="value" PUT="put_value" GET="get_value"/>
+ <PUBLIC:EVENT NAME="onvaluechange" ID="evt_onvaluechange"/>
+ 
+ <SCRIPT LANGUAGE="JScript">
+ 
+ var value;
+ var bInserted = false;
+ var wbemDatetime = null;
+ 
+ // A random id to make our dynamically inserted control IDs unique.
+ var randomId = Math.floor((Math.random () * 100000000));
+ var datetimeBehaviorId = "datetimeBehaviorId" + randomId;
+ var datetimePickerId = "datetimePickerId" + randomId;
+		
+ 
+//------------------------------------------------------------------------
+// Set the WMI datetime value and initialise underlying controls
+// if necessary
+//------------------------------------------------------------------------
+
+ function put_value (newValue)
+ {
+	value = newValue;
+	
+	// Insert the calendar control
+	if (!bInserted) {
+		
+		var insertStr = 		
+			'<SPAN ID="' + datetimeBehaviorId + '" STYLE="BEHAVIOR: url(calendar.htc); width:300; height:275"></SPAN>&nbsp;'
+			+ '<OBJECT id="' + datetimePickerId + '" style="WIDTH: 137px; HEIGHT: 31px" classid="clsid:20DD1B9E-87C4-11D1-8BE3-0000F8754DA1"><PARAM NAME="_ExtentX" VALUE="3625"><PARAM NAME="_ExtentY" VALUE="820"><PARAM NAME="_Version" VALUE="393216"><PARAM NAME="MousePointer" VALUE="0"><PARAM NAME="Enabled" VALUE="1"><PARAM NAME="OLEDropMode" VALUE="0"><PARAM NAME="CalendarBackColor" VALUE="-2147483643"><PARAM NAME="CalendarForeColor" VALUE="-2147483630"><PARAM NAME="CalendarTitleBackColor" VALUE="-2147483633"><PARAM NAME="CalendarTitleForeColor" VALUE="-2147483630"><PARAM NAME="CalendarTrailingForeColor" VALUE="-2147483631"><PARAM NAME="CheckBox" VALUE="0"><PARAM NAME="CustomFormat" VALUE=""><PARAM NAME="DateIsNull" VALUE="0"><PARAM NAME="Format" VALUE="662831106"><PARAM NAME="UpDown" VALUE="0"><PARAM NAME="CurrentDate" VALUE="36650"><PARAM NAME="MaxDate" VALUE="2958465"><PARAM NAME="MinDate" VALUE="-109205"></OBJECT>';
+
+		element.innerHTML = insertStr;
+		
+		// Attach to the events we are going to handle
+		window.document.all (datetimeBehaviorId).attachEvent ("onpropertychange", after_CalendarUpdate);
+		window.document.all (datetimePickerId).attachEvent ("Change", dtPicker_Changed);
+		bInserted = true;
+	}
+	
+	// Create the WMI Datetime helper
+	try {
+		if (null == wbemDatetime) {
+			wbemDatetime = new ActiveXObject("WbemScripting.SWbemDatetime");
+		}
+	}
+	catch (e) {
+		window.status = "Error creating SWbemDatetime: " + e.Description;
+	}
+	
+	// Set the value into the calendar
+	try {
+		wbemDatetime.Value = newValue;
+	}
+	catch (e) {
+		window.status = "Error in supplied value: " + newValue;
+	}
+	
+	try {
+		window.document.all (datetimeBehaviorId).year = wbemDatetime.Year;
+		window.document.all (datetimeBehaviorId).month = wbemDatetime.Month;
+		window.document.all (datetimeBehaviorId).day = wbemDatetime.Day;
+	
+		var timeStr = wbemDatetime.Hours + ":" + wbemDatetime.Minutes + ":" + wbemDatetime.Seconds;
+		window.document.all (datetimePickerId).value = timeStr;
+	}
+	catch (e) {
+		window.status = "Error setting calendar: " + e.Description;
+	}
+ }
+
+//------------------------------------------------------------------------
+// Get the WMI datetime value
+//------------------------------------------------------------------------
+ 
+ function get_value ()
+ {
+	var value;
+	
+	value = wbemDatetime.Value;
+	return value;
+ }
+
+//------------------------------------------------------------------------
+// Handle the Calendar Behavior update
+//------------------------------------------------------------------------
+ 
+ function after_CalendarUpdate ()
+ {
+	var property = event.getAttribute("propertyName");
+	var bChanged = true;
+	
+	if (property == "day")	{
+		wbemDatetime.Day = window.document.all (datetimeBehaviorId).day;
+	} else if (property == "month") {
+		wbemDatetime.Month = window.document.all (datetimeBehaviorId).month;
+	} else if (property == "year") {
+		wbemDatetime.Year = window.document.all (datetimeBehaviorId).year;
+	} else {
+		bChanged = false;
+	}
+	
+	if (bChanged) {
+		evt_onvaluechange.fire ();
+	}
+ }
+
+//------------------------------------------------------------------------
+// Handle the Datetime Picker Control update
+//------------------------------------------------------------------------
+ 
+ function dtPicker_Changed ()
+ {
+	wbemDatetime.Hours = window.document.all (datetimePickerId).Hour
+	wbemDatetime.Minutes = window.document.all (datetimePickerId).Minute
+	wbemDatetime.Seconds = window.document.all (datetimePickerId).Second
+	evt_onvaluechange.fire ();
+ }
+ 
+ </SCRIPT>
+</PUBLIC:COMPONENT>

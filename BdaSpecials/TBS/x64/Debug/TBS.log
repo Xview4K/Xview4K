@@ -1,0 +1,28 @@
+﻿2020/09/26 22:02:08 にビルドを開始しました。
+ログの詳細度は次のように設定されています: Normal。     1>ノード 3 上のプロジェクト "C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\BdaSpecials\TBS\TBS.vcxproj" (Build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "x64\Debug\TBS.tlog\unsuccessfulbuild" を作成しています。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64\CL.exe /c /I..\..\common /ZI /nologo /W4 /WX- /diagnostics:column /Od /D WIN32 /D _WINDOWS /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /GF /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\vc142.pdb" /Gd /TP /FC /errorReport:prompt ..\..\common\CIniFileAccess.cpp ..\..\common\common.cpp ..\..\common\DSFilterEnum.cpp TBSSpecials.cpp
+         CIniFileAccess.cpp
+         common.cpp
+         DSFilterEnum.cpp
+         TBSSpecials.cpp
+         コードを生成中...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\x64\Debug\TBS.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\x64\Debug\TBS.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\x64\Debug\TBS.lib" /MACHINE:X64 /DLL x64\Debug\CIniFileAccess.obj
+         x64\Debug\common.obj
+         x64\Debug\DSFilterEnum.obj
+         x64\Debug\TBSSpecials.obj
+            ライブラリ C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\x64\Debug\TBS.lib とオブジェクト C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\x64\Debug\TBS.exp を作成中
+         TBS.vcxproj -> C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\x64\Debug\TBS.dll
+       FinalizeBuildStatus:
+         ファイル "x64\Debug\TBS.tlog\unsuccessfulbuild" を削除しています。
+         "x64\Debug\TBS.tlog\TBS.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\BdaSpecials\TBS\TBS.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+    0 個の警告
+    0 エラー
+
+経過時間 00:00:03.52

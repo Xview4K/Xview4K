@@ -1,0 +1,39 @@
+﻿2020/09/26 22:02:08 にビルドを開始しました。
+ログの詳細度は次のように設定されています: Normal。     1>ノード 3 上のプロジェクト "C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\muparser\muparser.vcxproj" (Build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "x64\Debug\muparser.tlog\unsuccessfulbuild" を作成しています。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64\CL.exe /c /I..\..\3rdParties\muparser\include /ZI /JMC /nologo /W1 /WX- /diagnostics:column /Od /D WIN32 /D _WIN32 /D MUPARSERLIB_EXPORTS /D _UNICODE /D UNICODE /GF /Gm- /EHsc /RTC1 /MTd /GS /fp:precise /permissive- /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Debug\\" /Fd"x64\Debug\muparser.pdb" /Gd /TP /FC /errorReport:prompt ..\..\3rdParties\muparser\src\muParser.cpp ..\..\3rdParties\muparser\src\muParserBase.cpp ..\..\3rdParties\muparser\src\muParserBytecode.cpp ..\..\3rdParties\muparser\src\muParserCallback.cpp ..\..\3rdParties\muparser\src\muParserDLL.cpp ..\..\3rdParties\muparser\src\muParserError.cpp ..\..\3rdParties\muparser\src\muParserInt.cpp ..\..\3rdParties\muparser\src\muParserTest.cpp ..\..\3rdParties\muparser\src\muParserTokenReader.cpp
+         muParser.cpp
+         muParserBase.cpp
+         muParserBytecode.cpp
+         muParserCallback.cpp
+         muParserDLL.cpp
+         muParserError.cpp
+         muParserInt.cpp
+         muParserTest.cpp
+         muParserTokenReader.cpp
+         コードを生成中...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX86\x64\Lib.exe /OUT:"C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\Lib\x64\Debug\muparser.lib" /NOLOGO /MACHINE:X64 x64\Debug\muParser.obj
+         x64\Debug\muParserBase.obj
+         x64\Debug\muParserBytecode.obj
+         x64\Debug\muParserCallback.obj
+         x64\Debug\muParserDLL.obj
+         x64\Debug\muParserError.obj
+         x64\Debug\muParserInt.obj
+         x64\Debug\muParserTest.obj
+         x64\Debug\muParserTokenReader.obj
+         muparser.vcxproj -> C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\Lib\x64\Debug\muparser.lib
+       CopyFilesToOutputDirectory:
+         "C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\muparser\x64\Debug\muparser.pdb" から "C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\Lib\x64\Debug\muparser.pdb" へファイルをコピーしています。
+       FinalizeBuildStatus:
+         ファイル "x64\Debug\muparser.tlog\unsuccessfulbuild" を削除しています。
+         "x64\Debug\muparser.tlog\muparser.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\muparser\muparser.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+    0 個の警告
+    0 エラー
+
+経過時間 00:00:04.88

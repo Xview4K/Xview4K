@@ -1,0 +1,49 @@
+﻿2020/09/26 22:02:12 にビルドを開始しました。
+ログの詳細度は次のように設定されています: Normal。     1>ノード 4 上のプロジェクト "C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\Demuxers\Demuxers.vcxproj" (Build ターゲット)。
+     1>InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\bin_x64d\Demuxers\Demuxers.tlog\unsuccessfulbuild" を作成しています。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\CL.exe /c /I"C:\Program Files (x86)\Windows Kits\8.1\Include\um" /I..\DSUtilLite /IC:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\Demuxers\ /IC:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\common\includes /IC:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\common\baseclasses /IC:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\ffmpeg /IC:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\libbluray\src /IC:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\common\DSUtilLite /ZI /JMC /nologo /W3 /WX- /diagnostics:column /Od /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\bin_x64d\Demuxers\demuxersd.pch" /Fo"C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\bin_x64d\Demuxers\\" /Fd"C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\bin_x64d\Demuxers\Demuxers.pdb" /Gd /TP /FC /errorReport:prompt /Zc:ternary /Zc:inline,referenceBinding,rvalueCast,throwingNew stdafx.cpp
+         stdafx.cpp
+     1>C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\ffmpeg\libavutil\rational.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\CL.exe /c /I"C:\Program Files (x86)\Windows Kits\8.1\Include\um" /I..\DSUtilLite /IC:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\Demuxers\ /IC:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\common\includes /IC:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\common\baseclasses /IC:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\ffmpeg /IC:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\libbluray\src /IC:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\common\DSUtilLite /ZI /JMC /nologo /W3 /WX- /diagnostics:column /Od /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\bin_x64d\Demuxers\demuxersd.pch" /Fo"C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\bin_x64d\Demuxers\\" /Fd"C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\bin_x64d\Demuxers\Demuxers.pdb" /Gd /TP /FC /errorReport:prompt /Zc:ternary /Zc:inline,referenceBinding,rvalueCast,throwingNew BaseDemuxer.cpp ExtradataParser.cpp LAVFAudioHelper.cpp LAVFInputFormats.cpp LAVFVideoHelper.cpp LAVFStreamInfo.cpp LAVFUtils.cpp Packet.cpp StreamInfo.cpp
+         BaseDemuxer.cpp
+         ExtradataParser.cpp
+         LAVFAudioHelper.cpp
+         LAVFInputFormats.cpp
+         LAVFVideoHelper.cpp
+         LAVFStreamInfo.cpp
+         LAVFUtils.cpp
+         Packet.cpp
+         StreamInfo.cpp
+         コードを生成中...
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\CL.exe /c /I"C:\Program Files (x86)\Windows Kits\8.1\Include\um" /I..\DSUtilLite /IC:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\Demuxers\ /IC:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\common\includes /IC:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\common\baseclasses /IC:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\ffmpeg /IC:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\libbluray\src /IC:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\common\DSUtilLite /ZI /JMC /nologo /W3 /WX- /diagnostics:column /Od /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MT /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\bin_x64d\Demuxers\demuxersd.pch" /Fo"C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\bin_x64d\Demuxers\\" /Fd"C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\bin_x64d\Demuxers\Demuxers.pdb" /Gd /TP /FC /errorReport:prompt /Zc:ternary /Zc:inline,referenceBinding,rvalueCast,throwingNew LAVFDemuxer.cpp
+         LAVFDemuxer.cpp
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\bin\HostX64\x64\Lib.exe /OUT:"C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\bin_x64d\lib\demuxersd.lib" /NOLOGO /MACHINE:X64 C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\bin_x64d\Demuxers\BaseDemuxer.obj
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\bin_x64d\Demuxers\ExtradataParser.obj
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\bin_x64d\Demuxers\LAVFAudioHelper.obj
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\bin_x64d\Demuxers\LAVFInputFormats.obj
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\bin_x64d\Demuxers\LAVFVideoHelper.obj
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\bin_x64d\Demuxers\LAVFStreamInfo.obj
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\bin_x64d\Demuxers\LAVFUtils.obj
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\bin_x64d\Demuxers\Packet.obj
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\bin_x64d\Demuxers\stdafx.obj
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\bin_x64d\Demuxers\StreamInfo.obj
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\bin_x64d\Demuxers\LAVFDemuxer.obj
+         Demuxers.vcxproj -> C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\bin_x64d\lib\demuxersd.lib
+       FinalizeBuildStatus:
+         ファイル "C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\bin_x64d\Demuxers\Demuxers.tlog\unsuccessfulbuild" を削除しています。
+         "C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\bin_x64d\Demuxers\Demuxers.tlog\Demuxers.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\Demuxers\Demuxers.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+       "C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\projects\Demuxers\Demuxers.vcxproj" (Build ターゲット) (1) ->
+       (ClCompile ターゲット) -> 
+         C:\Users\lucky\Desktop\MiSeTe4K_SOURCE\MiSeTe4K_source_20200926\ffmpeg\libavutil\rational.h(1,1): warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+
+    1 個の警告
+    0 エラー
+
+経過時間 00:00:02.61

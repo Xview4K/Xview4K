@@ -1,0 +1,3 @@
+﻿  Git not found
+  stdafx.cpp
+E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\projects\DSUtilLite\stdafx.h(31,10): fatal error C1083: include ファイルを開けません。'streams.h':No such file or directory

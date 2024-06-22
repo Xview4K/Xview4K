@@ -1,0 +1,9 @@
+#include "resource.h"
+
+STRINGTABLE
+BEGIN
+    IDS_FONT_TYPEFACE   "Segoe UI Light"
+    IDS_FONT_HEIGHT_LOGO    "0"
+    IDS_FONT_HEIGHT_TITLE   "50"
+    IDS_FONT_HEIGHT_DESCRIPTION "22"
+END

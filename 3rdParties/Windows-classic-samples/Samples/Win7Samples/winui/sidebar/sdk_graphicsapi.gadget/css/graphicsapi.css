@@ -1,0 +1,15 @@
+/*
+//---------------------------------------------
+//  THIS CODE IS NOT APPROVED FOR USE IN/ON ANY OTHER UI ELEMENT OR PRODUCT COMPONENT.  
+//  Copyright (c) 2006 Microsoft Corporation.  All rights reserved.
+// ----------------------------------------------
+*/
+body
+{
+    position: absolute;
+    margin: 0px;
+}
+div#navbar
+{
+    position:absolute;
+}

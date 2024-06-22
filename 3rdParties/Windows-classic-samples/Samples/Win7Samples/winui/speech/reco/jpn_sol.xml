@@ -1,0 +1,17 @@
+﻿<GRAMMAR LANGID="411">
+        <DEFINE>
+		<ID NAME="VALUE" VAL="1"/>
+        </DEFINE>
+	<RULE NAME="NUMBER" TOPLEVEL="ACTIVE">
+		<L PROPNAME="VALUE" PROPID="VALUE">
+			<P VAL="1"> /の/の; </P>
+			<P VAL="2"> /ニ/に/ニ; </P>
+			<P VAL="3"> /三/さん/サン; </P>
+			<P VAL="5"> /先生/せんせい; </P>
+                        <P VAL="5"> 先生 </P>
+			<P VAL="6"> format </P>
+			<P VAL="7"> new game ?please</P>
+		</L>
+	</RULE>
+</GRAMMAR>
+

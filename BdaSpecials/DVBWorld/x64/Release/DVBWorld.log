@@ -1,0 +1,27 @@
+﻿2020/04/07 18:20:57 にビルドを開始しました。
+ログの詳細度は次のように設定されています: Normal。     1>ノード 3 上のプロジェクト "E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\BdaSpecials\DVBWorld\DVBWorld.vcxproj" (Rebuild ターゲット)。
+     1>_PrepareForClean:
+         ファイル "x64\Release\DVBWorld.tlog\DVBWorld.lastbuildstate" を削除しています。
+       InitializeBuildStatus:
+         "AlwaysCreate" が指定されたため "x64\Release\DVBWorld.tlog\unsuccessfulbuild" を作成しています。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\HostX86\x64\CL.exe /c /I..\..\common /Zi /nologo /W4 /WX- /diagnostics:column /O2 /Ob2 /Oi /Ot /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D _WINDLL /D _UNICODE /D UNICODE /GF /Gm- /EHsc /MT /GS- /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"x64\Release\\" /Fd"x64\Release\vc142.pdb" /Gd /TP /FC /errorReport:prompt DVBWorldSpecials.cpp
+         DVBWorldSpecials.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.25.28610\bin\HostX86\x64\link.exe /ERRORREPORT:PROMPT /OUT:"E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\x64\Release\DVBWorld.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\x64\Release\DVBWorld.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\x64\Release\DVBWorld.lib" /MACHINE:X64 /DLL x64\Release\DVBWorldSpecials.obj
+            ライブラリ E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\x64\Release\DVBWorld.lib とオブジェクト E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\x64\Release\DVBWorld.exp を作成中
+         コード生成しています。
+         コード生成が終了しました。
+         Previous IPDB not found, fall back to full compilation.
+         All 119 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         DVBWorld.vcxproj -> E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\x64\Release\DVBWorld.dll
+       FinalizeBuildStatus:
+         ファイル "x64\Release\DVBWorld.tlog\unsuccessfulbuild" を削除しています。
+         "x64\Release\DVBWorld.tlog\DVBWorld.lastbuildstate" のタッチ タスクを実行しています。
+     1>プロジェクト "E:\MiSeTe4Kフォーク元20200318\BonDriver_BDA\BdaSpecials\DVBWorld\DVBWorld.vcxproj" (Rebuild ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+    0 個の警告
+    0 エラー
+
+経過時間 00:00:01.54
