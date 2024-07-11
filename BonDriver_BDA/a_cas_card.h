@@ -59,7 +59,7 @@ typedef struct {
 	void (* release)(void *acas);
 
 	int (* init)(void *acas);
-
+	int (* re_init)(void* acas);
 	int (* get_init_status)(void *acas, A_CAS_INIT_STATUS *stat);
 	int (* get_id)(void *acas, A_CAS_ID *dst);
 	int (* get_pwr_on_ctrl)(void *acas, A_CAS_PWR_ON_CTRL_INFO *dst);

@@ -77,15 +77,15 @@ CFrameBuffer* audio_frame_buffer = NULL;
 
 #define LAV_START_TO_PROCESS_READ_SIZE 46080
 #define LAV_AUDIO_READ_SIZE 35840
-#define LAV_VIDEO_READ_SIZE 131072
+#define LAV_VIDEO_READ_SIZE 131072*8/////////////////////////////////
 
 
-//ACAS
-A_CAS_CARD* acas;
-A_CAS_ID           casid;
-CARD_SCRAMBLEKEY caskey;
-A_CAS_INIT_STATUS is;
-A_CAS_ECM_RESULT res;
+////ACAS
+//A_CAS_CARD* acas;
+//A_CAS_ID           casid;
+//CARD_SCRAMBLEKEY caskey;
+//A_CAS_INIT_STATUS is;
+//A_CAS_ECM_RESULT res;
 
 // BonDriverで使用
 ULONGLONG g_count = 0;
@@ -140,7 +140,7 @@ HANDLE hFileMMTP = NULL;
 LPBYTE buffer0 = NULL;
 LPBYTE buffer1 = NULL;
 //#define BUFFER_SIZE (96256 * 2)
-#define BUFFER_SIZE 131072
+#define BUFFER_SIZE 131072*8//////////////////////////////////////////////////////
 
 OPENFILENAME ofn;
 TCHAR szOfnFile[MAX_PATH] = { 0 };
@@ -4220,8 +4220,8 @@ LRESULT CALLBACK eMainWindowProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lPa
 		RECT rect = {};
 		GetClientRect(hWnd, &rect);
 
-		//BitBlt(hdc, ((rect.right - rect.left) - 331) / 2, ((rect.bottom - rect.top) - 91) / 2, 331, 91, hMdc, 0, 0, SRCCOPY);
-		BitBlt(hdc, ((rect.right - rect.left) - 297) / 2, ((rect.bottom - rect.top) - 299) / 2, 297, 299, hMdc, 0, 0, SRCCOPY);
+		BitBlt(hdc, ((rect.right - rect.left) - 723) / 2, ((rect.bottom - rect.top) - 588) / 2, 723, 588, hMdc, 0, 0, SRCCOPY);
+		//BitBlt(hdc, ((rect.right - rect.left) - 297) / 2, ((rect.bottom - rect.top) - 299) / 2, 297, 299, hMdc, 0, 0, SRCCOPY);
 
 		DeleteDC(hMdc);
 		DeleteObject(hbmp);
@@ -4359,28 +4359,28 @@ int WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, _In_ LPS
 		return E_FAIL;
 	}
 
-	//acas
-	int code, r;
-	res.return_code = 0;
+	////acas
+	//int code, r;
+	//res.return_code = 0;
 
-	acas = create_a_cas_card();
-	if (acas == NULL) {
-		printf("error - failed on create_a_cas_card()");
-	}
-	if (acas != NULL) {
-		code = acas->init(acas);//connect_card command
-		if (code < 0) {
-			printf("error - failed on A_CAS_CARD::init() : code=%d\n", code);
-		}
-	}
-	r = acas->get_init_status(acas, &is);
-	if (r < 0) {
-		printf("error - INVALID_A_CAS_STATUS");;
-	}
-	//may need get_id_a_cas_card
-	acas->get_id(acas, &casid);
-	//don't call show_acas_power_on_control_info
-	acas->scramble_key(acas, &casid, &caskey);
+	//acas = create_a_cas_card();
+	//if (acas == NULL) {
+	//	printf("error - failed on create_a_cas_card()");
+	//}
+	//if (acas != NULL) {
+	//	code = acas->init(acas);//connect_card command
+	//	if (code < 0) {
+	//		printf("error - failed on A_CAS_CARD::init() : code=%d\n", code);
+	//	}
+	//}
+	//r = acas->get_init_status(acas, &is);
+	//if (r < 0) {
+	//	printf("error - INVALID_A_CAS_STATUS");;
+	//}
+	////may need get_id_a_cas_card
+	//acas->get_id(acas, &casid);
+	////don't call show_acas_power_on_control_info
+	//acas->scramble_key(acas, &casid, &caskey);
 
 	tuner = new CBonTuner;
 
@@ -4640,7 +4640,7 @@ int WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, _In_ LPS
 	SAFE_DELETE_ARRAY(buffer1);
 
 	//Close ACAS IC card
-	acas->release;
+	//acas->release;
 
 	CoUninitialize();
 

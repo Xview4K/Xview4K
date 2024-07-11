@@ -81,6 +81,8 @@ public:
 	ULONG ulFillBuffSize;
 	INT process_id;
 
+	INT skip_count;
+
 	UINT16 uiVideo_PID;
 	UINT16 uiAudio_PID;
 	UINT16 uiStpp_PID;

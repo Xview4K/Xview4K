@@ -3,7 +3,7 @@
 #include <Windows.h>
 #include "streams.h"
 
-#define VIDEO_FRAME_BUFFER_SIZE (1048576 * 30)
+#define VIDEO_FRAME_BUFFER_SIZE (1048576 * 120)//(1048576 * 30)//////////////////////////////
 #define AUDIO_FRAME_BUFFER_SIZE (102400 * 3)
 
 class CFrameBuffer

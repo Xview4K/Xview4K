@@ -23,12 +23,18 @@ extern HWND m_hWnd;
 extern CFrameBuffer* video_frame_buffer;
 extern CFrameBuffer* audio_frame_buffer;
 
+////ACAS
+//extern A_CAS_CARD* acas;
+//extern A_CAS_ID           casid;
+//extern CARD_SCRAMBLEKEY caskey;
+//extern A_CAS_INIT_STATUS is;
+//extern A_CAS_ECM_RESULT res;
 //ACAS
-extern A_CAS_CARD* acas;
-extern A_CAS_ID           casid;
-extern CARD_SCRAMBLEKEY caskey;
-extern A_CAS_INIT_STATUS is;
-extern A_CAS_ECM_RESULT res;
+A_CAS_CARD* acas;
+A_CAS_ID           casid;
+CARD_SCRAMBLEKEY caskey;
+A_CAS_INIT_STATUS is;
+A_CAS_ECM_RESULT res;
 
 void juian_date(UINT16 mjd, INT* Year, INT* Month, INT* Day);
 std::wstring ReplaceString(std::wstring String1, std::wstring String2, std::wstring String3);
@@ -110,6 +116,19 @@ CTlvParse::CTlvParse()
 		lpXmlSubBuf[i] = new BYTE[65536];
 	}
 	res.return_code = 0;
+	int code;
+	if (acas == NULL) {
+		acas = create_a_cas_card();//acas‚ªNULL‚ÌŽž‚¾‚¯ŽÀs‰Â”\
+		if (acas == NULL) {
+			printf("error - failed on create_a_cas_card()");
+		}
+		if (acas != NULL) {
+			code = acas->init(acas);//connect_card command
+			if (code < 0) {
+				printf("error - failed on A_CAS_CARD::init() : code=%d\n", code);
+			}
+		}
+	}
 }
 
 CTlvParse::~CTlvParse()
@@ -118,6 +137,7 @@ CTlvParse::~CTlvParse()
 	for (int i = 0; i < XML_SUB_BUFFER_NUM; i++) {
 		SAFE_DELETE_ARRAY(lpXmlSubBuf[i]);
 	}
+	//acas->release;//acas‚ÍNULL‚É‚È‚ç‚È‚¢
 }
 
 void CTlvParse::Initialize()
@@ -135,6 +155,8 @@ void CTlvParse::Initialize()
 	ulTlvPacketSize = 0;
 	ulFillBuffSize = 0;
 	process_id = 0;
+
+	skip_count = 0;
 
 	uiVideo_PID = 0;
 	uiAudio_PID = 0;
@@ -694,11 +716,13 @@ HRESULT CTlvParse::parsePacket()
 						size_t size = data_length_enc;
 						decryption.ProcessData(out.data(), in.data(), size);
 						if (out[0] != 0x00) {
+							goto Skip;
 							//printf("Decryption error, Re-insert IC card. packet#:0x%x\n", mmtp->packet_sequence_number);
 							//scramble = TRUE;
 							//return E_ABORT;
 						}
 						else {//recover original data and write decrypted out.data()
+							skip_count = 0;
 							memcpy(lpTlvPacketBuf + pos, out.data(), data_length_enc);
 							header_ext->MMT_scramble_control = 0;
 						}
@@ -833,11 +857,13 @@ HRESULT CTlvParse::parsePacket()
 						size_t size = data_length_enc;
 						decryption.ProcessData(out.data(), in.data(), size);
 						if (out[0] != 0x00) {
+							goto Skip;
 							//printf("Decryption error, Re-insert IC card. packet#:0x%x\n", mmtp->packet_sequence_number);
 							//scramble = TRUE;
 							//return E_ABORT;
 						}
 						else {//recover original data and write decrypted out.data()
+							skip_count = 0;
 							memcpy(lpTlvPacketBuf + pos, out.data(), data_length_enc);
 							header_ext->MMT_scramble_control = 0;
 						}
@@ -934,11 +960,13 @@ HRESULT CTlvParse::parsePacket()
 						size_t size = data_length_enc;
 						decryption.ProcessData(out.data(), in.data(), size);
 						if (out[0] != 0x00) {
+							goto Skip;
 							//printf("Decryption error, Re-insert IC card. packet#:0x%x\n", mmtp->packet_sequence_number);
 							//scramble = TRUE;
 							//return E_ABORT;
 						}
 						else {//recover original data and write decrypted out.data()
+							skip_count = 0;
 							memcpy(lpTlvPacketBuf + pos, out.data(), data_length_enc);
 							header_ext->MMT_scramble_control = 0;
 						}
@@ -994,11 +1022,13 @@ HRESULT CTlvParse::parsePacket()
 						size_t size = data_length_enc;
 						decryption.ProcessData(out.data(), in.data(), size);
 						if (out[0] != 0x00) {
+							goto Skip;
 							//printf("Decryption error, Re-insert IC card. packet#:0x%x\n", mmtp->packet_sequence_number);
 							//scramble = TRUE;
 							//return E_ABORT;
 						}
 						else {//recover original data and write decrypted out.data()
+							skip_count = 0;
 							memcpy(lpTlvPacketBuf + pos, out.data(), data_length_enc);
 							header_ext->MMT_scramble_control = 0;
 						}
@@ -1051,6 +1081,15 @@ HRESULT CTlvParse::parsePacket()
 
 
 		}
+	Skip:
+		skip_count += 1;
+		res.return_code = 0;
+		past_signaling_data_byte = NULL;
+		if (skip_count > 10) {
+			scramble = TRUE;
+			return E_ABORT;
+		}
+		else { return S_OK; }
 	}
 	else if (mmtp->payload_type == 0x02) { // Signalling message
 		SIGNALLING_message_typedef* sig = (SIGNALLING_message_typedef*)(lpTlvPacketBuf + pos);
@@ -1295,6 +1334,9 @@ HRESULT CTlvParse::parsePacket()
 						if ((uiVideo_PID == 0) && (component_tag == 0x0000)) {
 							uiVideo_PID = pid;
 						}
+						else  if ( ((uiAudio_PID == 0xf110) || (uiAudio_PID == 0)) && (component_tag == 0x0011)) {//BS4K,8K skip 22.1ch
+							uiAudio_PID = pid;
+						}
 						else  if ((uiAudio_PID == 0) && (component_tag == 0x0010)) {
 							uiAudio_PID = pid;
 						}
@@ -1431,8 +1473,20 @@ HRESULT CTlvParse::parsePacket()
 				INT section_length = m2_msg->length - sizeof(M2_message_typedef) - 8;// 8 is for "the first 7 bytes are non essential datathe first 7 bytes are non essential data"
 				uint8_t* signaling_data_byte = (lpTlvPacketBuf + pos + 7);//the first 7 bytes are non essential data
 				if (*(signaling_data_byte + 5) != past_signaling_data_byte) {
-					int r = acas->proc_ecm(acas, &res, signaling_data_byte, section_length);
-					past_signaling_data_byte = *(signaling_data_byte + 5);//The first 4 bytes always same
+					int r;
+					r = acas->scramble_key(acas, &casid, &caskey);
+					if (r == 0) {
+						r = acas->proc_ecm(acas, &res, signaling_data_byte, section_length);
+						past_signaling_data_byte = *(signaling_data_byte + 5);//The first 4 bytes always same
+					}
+					else {
+							acas->re_init(acas);
+							r = acas->scramble_key(acas, &casid, &caskey);
+							if (r == 0) {
+								r = acas->proc_ecm(acas, &res, signaling_data_byte, section_length);
+								past_signaling_data_byte = *(signaling_data_byte + 5);//The first 4 bytes always same
+							}
+					}
 				}
 
 				return S_OK;

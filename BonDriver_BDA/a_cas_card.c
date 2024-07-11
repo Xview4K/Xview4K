@@ -101,6 +101,7 @@ static const uint8_t CARD_MASTER_KEY[] = {
  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
 static void release_a_cas_card(void *acas);
 static int init_a_cas_card(void *acas);
+static int re_init_a_cas_card(void* acas);
 static int get_init_status_a_cas_card(void *acas, A_CAS_INIT_STATUS *stat);
 static int get_id_a_cas_card(void *acas, A_CAS_ID *dst);
 static int get_pwr_on_ctrl_a_cas_card(void *acas, A_CAS_PWR_ON_CTRL_INFO *dst);
@@ -130,6 +131,7 @@ A_CAS_CARD *create_a_cas_card(void)
 
 	r->release = release_a_cas_card;
 	r->init = init_a_cas_card;
+	r->re_init = re_init_a_cas_card;
 	r->get_init_status = get_init_status_a_cas_card;
 	r->get_id = get_id_a_cas_card;
 	r->get_pwr_on_ctrl = get_pwr_on_ctrl_a_cas_card;
@@ -230,6 +232,49 @@ static int init_a_cas_card(void *acas)
 	}
 
 	if(prv->card == 0){
+		return A_CAS_CARD_ERROR_ALL_READERS_CONNECTION_FAILED;
+	}
+
+	return 0;
+}
+
+static int re_init_a_cas_card(void* acas)
+{
+	int m;
+	long ret;
+	unsigned long len;
+
+	A_CAS_CARD_PRIVATE_DATA* prv;
+
+	prv = private_data(acas);
+	if (prv == NULL) {
+		return A_CAS_CARD_ERROR_INVALID_PARAMETER;
+	}
+
+	ret = SCardEstablishContext(SCARD_SCOPE_USER, NULL, NULL, &(prv->mng));
+	if (ret != SCARD_S_SUCCESS) {
+		return A_CAS_CARD_ERROR_NO_SMART_CARD_READER;
+	}
+
+	ret = SCardListReaders(prv->mng, NULL, NULL, &len);
+	if (ret != SCARD_S_SUCCESS) {
+		return A_CAS_CARD_ERROR_NO_SMART_CARD_READER;
+	}
+
+
+	ret = SCardListReaders(prv->mng, NULL, prv->reader, &len);
+	if (ret != SCARD_S_SUCCESS) {
+		return A_CAS_CARD_ERROR_NO_SMART_CARD_READER;
+	}
+
+	while (prv->reader[0] != 0) {
+		if (connect_card(prv, prv->reader)) {
+			break;
+		}
+		prv->reader += (_tcslen(prv->reader) + 1);
+	}
+
+	if (prv->card == 0) {
 		return A_CAS_CARD_ERROR_ALL_READERS_CONNECTION_FAILED;
 	}
 
